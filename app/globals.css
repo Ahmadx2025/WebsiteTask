@@ -1,0 +1,490 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+/* Section Headers */
+.section-title {
+  color: #4d4d4d;
+  font-weight: 700;
+  font-size: 3.9rem;
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  color: #e85e5a;
+  font-size: 2.3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding-left: 2rem;
+}
+
+/* Product Cards - Bento Grid Style */
+.product-card {
+  border-radius: 50px;
+  overflow: hidden;
+  border: none;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.product-card .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product-card .card-img-overlay {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)) ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-btn{
+  background: #008ed3;
+  color: white;
+  border: none;
+  text-decoration: none;
+   transition: background 0.3s ease;
+   border-radius: 0%;
+
+}
+.product-btn:hover{
+  background: #0056b3;
+  color: white;
+  text-decoration: none;
+}
+
+.product-title {
+  color: white;
+  font-size: 2.55rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+/* News/Blog Styles */
+.news-title {
+  color: #e85e5a;
+  font-weight: 700;
+  font-size: 2.3rem;
+  margin-bottom: 2.15rem;
+  padding-top: 1.9rem;
+}
+
+.news-text {
+  color: #4d4d4d;
+  font-size: 1.1rem;
+  width: 530px;
+  line-height: 22pt;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+.news-image-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top , rgba(0,0,0,0.6), rgb(255, 255, 255,0.05));
+  pointer-events: none;
+  
+  z-index: 2;
+}
+
+.read-more-btn {
+  background: #008ed3;
+  color: white;
+  border: none;
+  padding: 4px 16px;
+  font-size: 1rem;
+  margin-top: 3.48rem;
+  margin-left: 0.2rem;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.3s ease;
+}
+
+.read-more-btn:hover {
+  background: #0056b3;
+  color: white;
+  text-decoration: none;
+}
+
+
+
+/* Curved Line Background */
+.curved-line-background {
+  position: absolute;
+  top: 32%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  pointer-events: none;
+  width: 100%;
+  height: auto;
+}
+
+.curved-line-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer Wave Positioning */
+.footer-wave {
+  width: 100%;
+  min-Width: 100vw;
+  position: absolute;
+  z-index: -5;
+  top: 2000px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding: 0;
+}
+
+/* ==================== RESPONSIVE STYLES ==================== */
+
+/* Tablet and smaller desktop screens (1200px and down) */
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 1140px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 3.2rem;
+    margin-top: 2.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 2rem;
+  }
+
+  .product-title {
+    font-size: 2.2rem;
+  }
+
+  .news-title {
+    font-size: 2rem;
+  }
+
+  /*  footer */
+  .footer-wave {
+    display: none;
+
+  }
+}
+
+/* Large tablets (992px and down) */
+@media (max-width: 991.98px) {
+  .section-title {
+    font-size: 2.8rem;
+    margin-top: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .product-title {
+    font-size: 1.9rem;
+  }
+
+  .news-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .news-text {
+    width: 100%;
+    max-width: 500px;
+    font-size: 1rem;
+    line-height: 20pt;
+  }
+
+  .read-more-btn {
+    margin-top: 2.5rem;
+  }
+
+  /* Media Updates Row - reduce gap for tablets */
+  .media-updates-row {
+    gap: 40px !important;
+  }
+
+  /* Footer  */
+  .footer-wave {
+    display: none;
+  }
+}
+
+/* Small tablets and landscape phones (768px and down) */
+@media (max-width: 767.98px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+    margin-top: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .product-title {
+    font-size: 1.6rem;
+  }
+
+  /* Media Updates adjustments */
+  .media-updates-row {
+    gap: 20px !important;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* News and Blog sections */
+  .news-section,
+  .blog-section {
+    width: 100% !important;
+    max-width: 500px !important;
+    padding-left: 5px !important;
+    margin-bottom: 2rem;
+  }
+
+  .blog-section {
+    padding-left: 25px !important;
+  }
+
+  .news-main-image,
+  .blog-main-image {
+    height: 350px !important;
+    border-radius: 40px !important;
+  }
+
+  .news-title {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+  }
+
+  .news-text {
+    width: 100%;
+    max-width: 450px;
+    font-size: 0.95rem;
+    line-height: 18pt;
+  }
+
+  .read-more-btn {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .blog-content {
+    margin-left: 10px !important;
+  }
+
+  /* Decorative elements - reduce size and adjust positioning */
+  .news-decoration-left {
+    width: 120px !important;
+    height: 120px !important;
+    bottom: 200px !important;
+    left: -25px !important;
+  }
+
+  .news-decoration-right {
+    width: 60px !important;
+    bottom: 220px !important;
+    right: -5px !important;
+  }
+
+  .blog-decoration {
+    width: 150px !important;
+    bottom: 200px !important;
+    left: -5px !important;
+  }
+
+  /* Product cards responsive heights */
+  .chalks-card,
+  .clay-card {
+    height: 280px !important;
+  }
+
+  .dough-card,
+  .crayons-card,
+  .moulds-card {
+    height: 275px !important;
+  }
+
+  /* Curved line background adjustment */
+  .curved-line-background {
+    top: 25%;
+  }
+
+  /* Footer wave */
+  .footer-wave {
+    display: none;
+  }
+}
+
+/* Portrait phones (576px and down) */
+@media (max-width: 575.98px) {
+  .section-title {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  .section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .product-title {
+    font-size: 1.3rem;
+  }
+
+  .news-section,
+  .blog-section {
+    max-width: 100% !important;
+    padding-left: 0 !important;
+  }
+
+  .blog-section {
+    padding-left: 15px !important;
+  }
+
+  .news-main-image,
+  .blog-main-image {
+    height: 280px !important;
+    border-radius: 30px !important;
+  }
+
+  .news-title {
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  .news-text {
+    font-size: 0.9rem;
+    line-height: 16pt;
+  }
+
+  .read-more-btn {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    padding: 3px 12px;
+  }
+
+  .blog-content {
+    margin-left: 5px !important;
+  }
+
+  /* Hide decorative elements on very small screens */
+  .news-decoration-left,
+  .news-decoration-right,
+  .blog-decoration {
+    display: none;
+  }
+
+  /* Product cards for mobile */
+  .chalks-card,
+  .clay-card,
+  .dough-card,
+  .crayons-card,
+  .moulds-card {
+    height: 220px !important;
+    border-radius: 30px !important;
+  }
+
+  /* Curved line background - hide or make smaller */
+  .curved-line-background {
+    display: none;
+  }
+
+  /* Footer wave  */
+  .footer-wave {
+   display: none;
+  }
+
+  /* Badge adjustments */
+  .product-badge {
+    width: 120px !important;
+    height: 25px !important;
+    font-size: 14px !important;
+    bottom: 60px !important;
+  }
+}
+
+/* Very small phones (480px and down) */
+@media (max-width: 479.98px) {
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  .product-title {
+    font-size: 1.1rem;
+  }
+
+  .news-main-image,
+  .blog-main-image {
+    height: 240px !important;
+  }
+
+  .news-title {
+    font-size: 1.2rem;
+  }
+
+  .news-text {
+    font-size: 0.85rem;
+    line-height: 15pt;
+  }
+
+  .chalks-card,
+  .clay-card,
+  .dough-card,
+  .crayons-card,
+  .moulds-card {
+    height: 180px !important;
+  }
+
+  /* Footer wave  */
+  .footer-wave {
+   display: none;
+  }
+}
