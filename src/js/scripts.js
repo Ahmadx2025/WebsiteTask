@@ -217,6 +217,7 @@ var gallerySwiper = new Swiper(".gallerySwiper", {
     0: {
       slidesPerView: 1,
       slidesPerGroup: 1,
+      spaceBetween: 10
     },
     650: {
       slidesPerView: 2,
@@ -276,71 +277,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+document.addEventListener('DOMContentLoaded', function () {
+  const navbar = document.querySelector('.navbar');
+  if (!navbar) return;
+  navbar.style.transition = 'transform 1s ease';
 
+  let lastY = window.scrollY;
 
-//  const floatItems = document.querySelectorAll('.floating-anim');
-//   const states = Array.from(floatItems).map(() => ({
-//     posX: 0,
-//     posY: 0,
-//     speedX: (Math.random() * 1.5 + 0.5) * (Math.random() > 0.5 ? 1 : -1),
-//     speedY: (Math.random() * 0.5) * (Math.random() > 0.5 ? 1 : -1),
-//   }));
+  window.addEventListener('scroll', function () {
+    if (window.innerWidth >= 1000) {
+      navbar.style.transform = '';
+      lastY = window.scrollY;
+      return;
+    }
+    if (window.scrollY > lastY) {
+      navbar.style.transform = 'translateY(-100%)';
+    } else {
+      navbar.style.transform = 'translateY(0)';
+    }
 
-//   const maxX = 200;
-//   const maxY = 50;
-//   let animating = false;
-//   let animFrameId = null;
-
-//   function animate() {
-//     // لو الحركة متوقفة، ما نكمّل
-//     if (!animating) return;
-
-//     floatItems.forEach((el, i) => {
-//       const s = states[i];
-//       s.posX += s.speedX;
-//       s.posY += s.speedY;
-
-//       if (s.posX > maxX || s.posX < -maxX) s.speedX *= -1;
-//       if (s.posY > maxY || s.posY < -maxY) s.speedY *= -1;
-
-//       el.style.transform = `translate(${s.posX}px, ${s.posY}px)`;
-//     });
-
-//     // استدعاء الفريم التالي فقط لو الحركة شغّالة
-//     if (animating) {
-//       animFrameId = requestAnimationFrame(animate);
-//     }
-//   }
-
-//   function startAnimation() {
-//     if (!animating) {
-//       animating = true;
-//       animate();
-//     }
-//   }
-
-//   function stopAnimation() {
-//     animating = false;
-//     if (animFrameId) {
-//       cancelAnimationFrame(animFrameId);
-//       animFrameId = null;
-//     }
-//     // ترجع الصور لمكانها
-//     floatItems.forEach(el => {
-//       el.style.transform = 'translate(0,0)';
-//     });
-//   }
-
-//   // تشغيل/إيقاف عند السكرول
-//   window.addEventListener('scroll', () => {
-//     const trigger = document.querySelector('.container-lg');
-//     const rect = trigger.getBoundingClientRect();
-//     const atTop = window.scrollY === 0;
-
-//     // تشغيل فقط لو العنصر ظاهر ومش في التوب
-//     if (!atTop && rect.top < window.innerHeight && rect.bottom > 0) {
-//       startAnimation();
-//     } else {
-//       stopAnimation();
-//     }
-//   });
+    lastY = window.scrollY;
+  });
+});
