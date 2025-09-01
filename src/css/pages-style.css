@@ -131,6 +131,8 @@ main{padding-top:115px}
 .commercial-content-row{position:relative;z-index:2}
 .gallery body{min-height:100vh;display:flex;flex-direction:column}
 .gallery footer{margin-top:auto}
+.tab-pane tr td:first-child{padding-right:40px}
+.tab-pane tr td:nth-child(3){padding-left:40px}
 .news-section{margin-top:150px;margin-bottom:180px}
 .page-news-title{padding-bottom:60px}
 .page-news-title .main-title{margin-bottom:0}
@@ -285,6 +287,23 @@ main{padding-top:115px}
 .padding-60{padding-top:60px}
 .modal-content .gallery-controls{padding-top:7%!important}
 .download-p{padding-bottom:50px}
+.page-jordan-title{padding-bottom:60px}
+.rum-petra-grid{display:flex;gap:15px;float:right}
+.jordan{padding-bottom:60px;padding-top:150px}
+.jo-mg{margin-top:55px;padding-right:0}
+.rum img{width:95%!important;float:right}
+.rum-petra-grid img{width:100%;height:100%;display:block;object-fit:cover}
+.jordan .paragraph{line-height:30px;margin-bottom:0}
+.world .paragraph{line-height:30px}
+.world-map{padding-right:115px;padding-top:70px}
+.importers{padding-top:55px}
+.global{padding-top:55px;margin-bottom:180px}
+.jordan-map{position:relative;top:23px;display:flex;justify-content:center}
+.global .paragraph{margin-bottom:0;line-height:30px}
+.world .paragraph{margin-bottom:0}
+.pWithBG::before{content:'';display:block;width:60px;height:60px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 59.66 53.41' width='70px' height='70px'><defs><style>.cls-1 { isolation: isolate; } .cls-2 { fill: %23c3dddd; opacity: 1; }</style></defs><g class='cls-2'><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='cls-2' d='M58.17,18C52.56,5,42.53-3.88,29.53,1.7S-7.1,31.82,2.06,42.57C11.76,54,26.63,56,39.64,50.44S63.78,30.9,58.17,18Z'></path></g></g></g></svg>");background-size:contain;background-repeat:no-repeat;position:absolute;z-index:0}
+.pWithBG{font-weight:500;font-size:20px;color:#4d4d4d;width:415px;height:70px;position:relative}
+.pWithBG span{z-index:1;position:absolute;top:27px;padding-left:15px}
 @media screen and (max-width:1680px){
 .cat-mg-cn img{width:80%}
 .cat-mg-cn{display:flex;align-items:center;justify-content:center}
@@ -421,6 +440,11 @@ main{padding-top:115px}
 .deminsion-mg{top:-5px}
 .carton-mg{top:-5px}
 .container-mg{top:15px}
+.page-jordan-title{padding-bottom:50px}
+.jordan{padding-top:110px;padding-bottom:50px}
+.importers{padding-top:50px}
+.global{padding-top:50px}
+.global{margin-bottom:100px}
 }
 @media screen and (max-width:1024px) and (min-width:1000px){
 main{padding-top:86px}
@@ -539,6 +563,14 @@ main{padding-top:86px}
 .colors span.color{width:11px;height:11px}
 .white-chalk{font-size:13px;gap:10px}
 .ce{width:30px!important;height:30px!important}
+.page-jordan-title{padding-bottom:30px}
+.world-map{padding-top:0;padding-right:20px}
+.jordan{padding-top:80px}
+.global{margin-bottom:100px}
+.rum-petra-grid img{height:190%}
+.importers{padding-top:30px}
+.global{padding-top:30px}
+.jordan{padding-bottom:40px}
 }
 @media screen and (max-width:900px){
 .product-mg img{height:240px;width:auto}
@@ -606,7 +638,7 @@ main{padding-top:90px}
 .polcy-part p{padding-bottom:20px}
 .policy-list li{padding-bottom:15px}
 .commitment-section{padding-top:70px;padding-bottom:90px}
-.commitment-section .paragraph{font-size: 15px;}
+.commitment-section .paragraph{font-size:15px}
 .right-green{bottom:13px}
 .right-green img{width:30px}
 .left-blue{left:0;top:16px}
@@ -663,6 +695,9 @@ main{padding-top:90px}
 .features-list li{padding-bottom:15px;font-size:15px}
 .tab-button{padding:0;font-size:20px}
 .tab-header{gap:50px}
+.tab-pane tr td{width:50%;display:inline-block}
+.tab-pane tr td:nth-child(3){padding-left:0;padding-top:40px;padding-right:20px}
+.tab-pane tr td:first-child{padding-right:20px}
 .cargo-details .sub-title{font-size:20px}
 .pack-info .sub-title{font-size:19px}
 .pack-info .paragraph{font-size:15px}
@@ -707,6 +742,20 @@ main{padding-top:90px}
 .deminsion-mg{width:21px!important;top:-8px}
 .carton-mg{width:25px!important;top:-8px}
 .container-mg{width:23px!important;top:-6px}
+.page-jordan-title{padding-bottom:30px}
+.jo-mg{padding-left:0;padding-right:0;margin-top:10px}
+.rum-petra-grid{gap:10px;padding-left:19.2px;padding-right:calc(var(--bs-gutter-x) * .5)}
+.rum-petra-grid img{height:100%}
+.rum img{width:100%!important;float:none}
+.jordan{padding-bottom:0;padding-top:70px}
+.importers{padding-top:20px}
+.world-map{padding-right:0;padding-top:20px;text-align:center}
+.jordan-map{top:10px;padding-bottom:20px}
+.jordan-map img{width:45%}
+.global{margin-bottom:70px;padding-top:10px}
+.global-info{padding-left:19.2px!important}
+.jordan .order-res-1{order:1}
+.jordan .padding-t{padding-top:10px}
 }
 @media screen and (max-width:650px){
 .cat-mg-cn img{width:60%}
@@ -821,13 +870,16 @@ main{padding-top:80px}
 .theme-product img{height:40px}
 .tab-button{font-size:17px}
 .tab-header{align-items:center;gap:30px}
+.tab-pane tr td{width:100%;display:block}
+.tab-pane tr td:nth-child(2){padding-top:40px}
+.tab-pane tr td:first-child,.tab-pane tr td:nth-child(3){padding-right:0}
 .benifit-title .tab-button.active::after{bottom:-12px}
 .benifits-section{padding-top:14px;padding-bottom:19px}
 .product-bx{padding-left:25px;padding-right:10px;margin-bottom:20px;padding-bottom:25px;padding-top:50px}
 .cargo-details .sub-title{font-size:19px;padding-bottom:20px}
 .info-product{padding-bottom:20px;padding-left:0}
-.info-pallet{padding-left:0;padding-top: 0;margin-top: -35px;}
-.cargo-details li{padding-left:0;}
+.info-pallet{padding-left:0;padding-top:0;margin-top:-35px}
+.cargo-details li{padding-left:0}
 .modal-content{width:95%;padding-top:50px}
 .slide-diecut .sub-title{font-size:19px}
 .product-details .gallery-controls{gap:5px;padding-top:40px}
@@ -835,7 +887,9 @@ main{padding-top:80px}
 .product-img{order:0}
 .pack-info{order:1;padding-top:25px;margin-top:0;padding-bottom:10px}
 .cargo-details{order:2;padding-top:15px}
-
+.cargo-details .paragraph{font-size:14px}
+.container-mg{top:-2px}
+.box-mg{top:-32px}
 .cargo-details .paragraph span img{width:25px;height:25px;object-fit:contain;padding-right:2px}
 .section-title-contact .main-title{font-size:30px}
 .commercial-info-column h3{font-size:22px}
@@ -851,7 +905,18 @@ main{padding-top:80px}
 .btn-download{width:20%}
 .download-control{width:100%}
 .image-clouds-top{width:100px;padding-bottom:10px}
-
+.page-jordan-title{padding-bottom:20px}
+.pWithBG{width:100%;font-size:18px;height:50px}
+.pWithBG::before{width:50px;height:50px;background-size:contain}
+.pWithBG span{top:18px;padding-left:10px}
+.world .importers .pWithBG{height:75px}
+.jordan-map{top:5px}
+.jordan-map img{width:80%}
+.rum-petra-grid{padding-left:8px;float:none}
+.jordan{padding-bottom:20px;padding-top:50px}
+.rum-petra-grid img{height:250px}
+.global{margin-bottom:50px}
+.global-info{padding-left:8px!important}
 }
 @media screen and (max-width:320px){
 .car-line{top:27%}
@@ -864,9 +929,7 @@ main{padding-top:80px}
 .sust-logo img{width:65px!important}
 .info-pallet{margin-top:-30px}
 .info-pallet{top:0}
-.box-mg{
-    top: -32px;
-}
+.box-mg{top:-32px}
 }
 @media screen and (min-width:576px) and (max-width:650px){
 .col-sm-6{flex:0 0 auto;width:100%}
@@ -945,11 +1008,17 @@ main{padding-top:80px}
 .pack-info .paragraph{font-size:17px}
 .pack-info .sub-title{font-size:20px}
 .modal-content .swiper-slide img{width:80%}
-.modal-content{padding-top:30px}
+.modal-content{padding-top:30px;top:16%}
 .slide-diecut .sub-title{padding-top:15px}
 .box-mg{width:32px!important;position:relative;top:-16px}
 .weight-mg{width:19px!important;top:-16px}
 .deminsion-mg{width:23px!important;position:relative;top:-7px}
 .carton-mg{width:27px!important;top:-6px}
 .container-mg{width:25px!important;top:5px}
+.jo-mg{margin-top:0}
+.jordan-row{display:flex;align-items:center}
+.world-map{padding-right:70px;padding-top:0}
+.rum-petra-grid img{height:112%}
+.jordan-map img{width:95%}
+.pWithBG{font-size:18px}
 }
