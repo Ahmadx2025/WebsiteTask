@@ -2,6 +2,7 @@ main{padding-top:115px}
 .main-category-page-cn{padding-top:40px;background-image:url(../images/cat-banner.jpg);padding-bottom:120px;background-size:100% 85%;background-position:top;background-repeat:no-repeat}
 .cat-mg-cn img{width:90%;position:relative;display:block;will-change:transform}
 .ov-x-none{overflow:hidden}
+.sub-category .sub-title{font-size:30px;font-weight:400;padding-top:15px}
 .floating-anim{position:relative;display:block;will-change:transform;transition:transform 1s ease-out}
 .main-category-title{padding-bottom:35px}
 .main-category-title .main-title{padding-bottom:25px}
@@ -49,6 +50,8 @@ main{padding-top:115px}
 .regular-weight{font-weight:400}
 .making-chalks-cn .main-title{padding-top:175px;padding-bottom:30px}
 .making-chalks-cn .sub-title{padding-bottom:65px}
+.way-info .sub-title{font-size:25px;font-weight:500;margin-top:11px;margin-left:10px}
+.way-info{padding-bottom:15px}
 .text-with-num-cn{padding-bottom:100px}
 .making-chalks-cn{padding-bottom:170px}
 .parent{display:grid;grid-template-columns:23% 23% 50%;grid-template-rows:repeat(2,1fr);grid-column-gap:15px;grid-row-gap:15px;height:690px;margin-bottom:160px;position:relative}
@@ -67,13 +70,13 @@ main{padding-top:115px}
 .upper-yellow .yellow-decorative{position:absolute;width:205px;bottom:-76px;right:49px;z-index:-1}
 .sustainability-inner-1{padding-bottom:140px;padding-top:10px}
 .sustainability-img{height:auto;max-width:100%}
-.sustainability-img img{object-fit:cover;height:100%;max-width:100%;border-radius:65px;overflow:hidden}
+.sustainability-img img{object-fit:cover;height:100%;width:100%;border-radius:65px;overflow:hidden}
 .empowering-text .sub-title{padding:0;margin-bottom:0;padding-bottom:40px;font-weight:400}
 .empowering-text .paragraph{margin-bottom:0;padding-bottom:0;font-weight:400}
 .lower-decorate .yellow-decorative{position:absolute;width:104px;top:-24px;left:-5px;z-index:-1}
 .sustainability-inner-2{padding-bottom:90px}
 .lower-decorate .green-decorative{right:-20px;position:absolute;width:205px;z-index:-1;bottom:-56px}
-.sustainability-section{z-index:1;margin-top:-70px}
+.sustainability-section{z-index:1}
 .polcy-background{background:rgba(210,229,238,.76);position:relative;top:-1px}
 .ethical-part{padding-top:96px}
 .certificate-wrapper{max-width:fit-content}
@@ -93,7 +96,7 @@ main{padding-top:115px}
 .cloud-line img{width:490px}
 .cloud-blue{object-fit:contain;position:absolute;right:369px;bottom:470px}
 .cloud-blue img{width:164px}
-.commitment-section{padding-top:150px;padding-bottom:200px}
+.commitment-section{padding-bottom:150px;z-index:1}
 .commitment-items{position:relative;z-index:1}
 .content-box{padding-top:65px}
 .content-box .sub-title{padding-bottom:53px;margin-bottom:0;font-weight:400}
@@ -116,6 +119,8 @@ main{padding-top:115px}
 .contact-info-column p{font-size:20px;line-height:1.6;color:#4d4d4d;font-weight:400}
 .contact-info-column h3{font-weight:500;margin-bottom:30px;font-size:35px}
 .contact-info-column a{font-size:20px;line-height:1.6;color:#4d4d4d;font-weight:400;display:block;text-decoration:none}
+.contact-info-column a svg{width:20px;margin-right:4px}
+.info-contact{margin-top:-4px}
 .cloud-image-wrapper img{height:auto;position:absolute;bottom:265px}
 .section-contact .private-label-form input,.section-contact .private-label-form textarea{width:100%;padding:12px 15px;margin-bottom:10px;border:none;background-color:#fff;font-size:14px}
 .section-contact .private-label-form{padding-bottom:0}
@@ -124,6 +129,7 @@ main{padding-top:115px}
 .section-contact-commercial{position:relative;background-color:#f4f4f4;padding-bottom:120px}
 .inner-commercial{padding-bottom:100px}
 .company-contact-info h3{color:#4d4d4d;font-weight:500;font-size:2rem}
+.section-contact iframe{margin-bottom:100px}
 .inner-commercial .form-private-label{padding-top:135px}
 .commercial-info-column h3{font-weight:500;font-size:1.75rem;padding-bottom:60px;color:#4d4d4d;margin:0}
 .commercial-info-column p{font-weight:300;font-size:1.25rem;font-weight:400;color:#4d4d4d;margin:0}
@@ -131,8 +137,7 @@ main{padding-top:115px}
 .commercial-content-row{position:relative;z-index:2}
 .gallery body{min-height:100vh;display:flex;flex-direction:column}
 .gallery footer{margin-top:auto}
-.tab-pane tr td:first-child{padding-right:40px}
-.tab-pane tr td:nth-child(3){padding-left:40px}
+.tab-pane tr td p{width:90%}
 .news-section{margin-top:150px;margin-bottom:180px}
 .page-news-title{padding-bottom:60px}
 .page-news-title .main-title{margin-bottom:0}
@@ -210,7 +215,6 @@ main{padding-top:115px}
 .features-list li svg{width:80px;height:80px;padding-bottom:10px}
 .info-product .paragraph{padding-bottom:10px}
 .colors{gap:4px}
-.colors span.color{display:inline-block;width:16px;height:16px;border-radius:50%}
 .btns-product .main-btn a{font-weight:400;padding:5px 10px;cursor:pointer}
 .box-product{padding:0}
 .route-top .sub-title{font-size:23px;color:#4d4d4d;padding-bottom:180px;padding-top:60px;font-weight:400;margin-bottom:0}
@@ -220,18 +224,6 @@ main{padding-top:115px}
 .ce{width:50px!important;height:40px!important}
 .white-chalk{font-weight:500;font-size:15px;gap:30px;padding-top:13px;padding-bottom:35px;color:#4d4d4d}
 .white-chalk img{width:236px}
-.yellow-bg{background-color:#f6cf4d}
-.black-yellow-bg{background-color:#e0b049}
-.orange-bg{background-color:#e79547}
-.red-bg{background-color:#d73a34}
-.pink-bg{background-color:#db5d99}
-.light-green-bg{background-color:#a2c655}
-.darkest-green-bg{background-color:#809656}
-.dark-green-bg{background-color:#71a553}
-.blue-bg{background-color:#3a82ba}
-.light-blue-bg{background-color:#57bbea}
-.purple-bg{background-color:#5b6ead}
-.brown-bg{background-color:#a07d57}
 .theme-product img{width:100%}
 .benifits-section{padding-top:67px;padding-bottom:67px}
 .tab-header{gap:90px;border-bottom:4px solid #f4f4f4}
@@ -259,11 +251,12 @@ main{padding-top:115px}
 .pack-info .paragraph{font-size:20px}
 .slide-diecut .sub-title{font-weight:500;font-size:23px;color:#4d4d4d;margin-bottom:0}
 .modal{overflow:hidden;position:fixed;z-index:2000;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.7)}
-.modal-content{background:#fff;top:19%;padding-bottom:10px;padding-top:20px;width:55%;height:auto;position:relative;border-radius:0;opacity:0;transform:translateY(-20px);transition:opacity .3s ease,transform .3s ease}
+.modal-content{background:#fff;top:14%;padding-bottom:10px;padding-top:20px;width:90%;height:auto;position:relative;border-radius:0;opacity:0;transform:translateY(-20px);transition:opacity .3s ease,transform .3s ease;margin-left:auto;margin-right:auto}
 .modal-content.show{opacity:1;transform:translateY(0)}
-.modal-content .gallery-controls{padding-top:50px;justify-content:center}
+.modal-content .gallery-controls{padding-top:50px;justify-content:center;padding-top:5%!important}
 .modal-content .swiper-slide{display:flex;justify-content:center;align-items:center;padding-bottom:0}
-.modal-content .swiper-slide img{width:100%;height:100%}
+.modal-content .swiper-slide img{width:100%;height:500px}
+.modal-content .btns-product{padding-top:20px}
 .close{position:absolute;top:-4px;right:10px;font-size:37px;cursor:pointer;color:#4d4d4d;z-index:1000}
 .padding-30{padding-left:30px}
 .info-cargo{gap:11px;margin-right:9px}
@@ -285,25 +278,43 @@ main{padding-top:115px}
 .form-padding-top{padding-top:140px}
 .benifit-padding{padding-bottom:75px}
 .padding-60{padding-top:60px}
-.modal-content .gallery-controls{padding-top:7%!important}
+.sustainability-title .main-title{padding-bottom:40px}
 .download-p{padding-bottom:50px}
 .page-jordan-title{padding-bottom:60px}
-.rum-petra-grid{display:flex;gap:15px;float:right}
 .jordan{padding-bottom:60px;padding-top:150px}
-.jo-mg{margin-top:55px;padding-right:0}
-.rum img{width:95%!important;float:right}
-.rum-petra-grid img{width:100%;height:100%;display:block;object-fit:cover}
+.jordan-row{padding-bottom:100px}
+.jordan-row .paragraph{font-size:20px}
+.jordan-row .sub-title{padding-bottom:20px;font-size:30px;padding-top:65px}
+.jordan-row img{width:100%}
+.jo-info{text-align:center}
+.jordan-mg img{height:555px;border-radius:20px;object-fit:cover}
+.jo-journey{padding-bottom:65px}
+.dead-sea svg{position:absolute;width:200px;bottom:-55px;left:-64px;z-index:-1}
+.sea-theme{position:absolute;padding-top:0}
+.rum svg{position:absolute;width:91px;top:-40px;right:-13px;z-index:-1}
+.sea-padding{padding-left:0}
+.rum-padding{padding-right:0}
 .jordan .paragraph{line-height:30px;margin-bottom:0}
 .world .paragraph{line-height:30px}
-.world-map{padding-right:115px;padding-top:70px}
-.importers{padding-top:55px}
-.global{padding-top:55px;margin-bottom:180px}
-.jordan-map{position:relative;top:23px;display:flex;justify-content:center}
-.global .paragraph{margin-bottom:0;line-height:30px}
-.world .paragraph{margin-bottom:0}
-.pWithBG::before{content:'';display:block;width:60px;height:60px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 59.66 53.41' width='70px' height='70px'><defs><style>.cls-1 { isolation: isolate; } .cls-2 { fill: %23c3dddd; opacity: 1; }</style></defs><g class='cls-2'><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='cls-2' d='M58.17,18C52.56,5,42.53-3.88,29.53,1.7S-7.1,31.82,2.06,42.57C11.76,54,26.63,56,39.64,50.44S63.78,30.9,58.17,18Z'></path></g></g></g></svg>");background-size:contain;background-repeat:no-repeat;position:absolute;z-index:0}
-.pWithBG{font-weight:500;font-size:20px;color:#4d4d4d;width:415px;height:70px;position:relative}
-.pWithBG span{z-index:1;position:absolute;top:27px;padding-left:15px}
+.world-map{padding-bottom:140px}
+#map{height:65vh;position:relative;z-index:0;width:100%}
+.leaflet-control-attribution{display:none!important}
+.back-btn{position:absolute;top:10px;right:10px;background:#2d2d2e;padding:6px 12px;border-radius:6px;font-size:16px;font-weight:700;cursor:pointer;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.3);display:none;z-index:1000;transition:all .3s ease}
+.back-btn:hover{background:#f44336;color:#fff;transform:scale(1.1)}
+.leaflet-bar a:hover, .leaflet-bar a:focus{background-color: #2d2d2e !important;color: #fff !important;}
+.animated-line{stroke-dasharray:5,4;stroke-dashoffset:0;animation:dashmove 2s linear infinite;transition:stroke .3s ease}
+.leaflet-touch .leaflet-bar a{background-color:#2d2d2e;color:#fff}
+@keyframes dashmove{
+to{stroke-dashoffset:-50}
+}
+.country-label{font-family:Rubik,sans-serif;font-size:12px;font-weight:700;color:#222;text-shadow:1px 1px 4px rgba(255,255,255,.9);white-space:nowrap}
+.popup-name{font-size:19px}
+.leaflet-popup-content-wrapper{font-family:Rubik,sans-serif;font-size:17px;max-width:250px;color:#2d2d2e}
+.leaflet-popup-content{word-wrap:break-word}
+.popup-name{padding-bottom:5px}
+.popup-info{display:flex;align-items:center!important;color:#4d4d4d!important;padding-top:7px}
+.popup-info svg{width:18px;height:18px;margin-right:7px;flex-shrink:0}
+.leaflet-popup-content a{text-decoration:none;font-weight:400;font-size:15px}
 @media screen and (max-width:1680px){
 .cat-mg-cn img{width:80%}
 .cat-mg-cn{display:flex;align-items:center;justify-content:center}
@@ -339,8 +350,8 @@ main{padding-top:115px}
 .sustainability-inner-1{padding-bottom:100px;padding-top:0}
 .sustainability-inner-2{padding-bottom:120px}
 .sustainability-section{margin-top:50px}
+.sustainability-title .main-title{padding-bottom:20px}
 .sust-header .page-theme{bottom:-14px}
-.sustainability-section{margin-top:-17px}
 .car-line img{width:250px}
 .cloud-line img{width:395px}
 .cloud-line{bottom:31%}
@@ -360,12 +371,13 @@ main{padding-top:115px}
 .right-green img{width:40px}
 .icon-pdf-sus .sustainability-pdf{bottom:-31px;left:-24px}
 .icon-pdf-sus .sustainability-pdf a img{width:85%}
-.commitment-section{padding-top:109px;padding-bottom:162px}
+.commitment-section{padding-top:0;padding-bottom:100px}
 .comm-abs{width:100%;border-radius:0 55px 55px 0}
 .width-se{width:80%}
 .ethical-part .sub-title{padding-bottom:29px}
 .section-title-contact{margin-bottom:50px}
 .section-contact{margin-top:110px}
+.section-contact iframe{margin-bottom:60px;height:450px}
 .contact-info-column h3{font-size:28px}
 .contact-info-column a,.contact-info-column p{font-size:19px}
 .contact-background .inner{padding-top:100px;padding-bottom:77px}
@@ -383,18 +395,20 @@ main{padding-top:115px}
 .white-chalk{padding-bottom:30px}
 .certifications{gap:35px;padding-bottom:30px}
 .product .swiper-slide img{width:80%;height:100%}
-.colors span.color{width:15px;height:15px}
+.modal-content .gallery-controls{padding-top:3%!important}
 .benifits-section{padding-top:50px;padding-bottom:50px}
 .product-details{padding-bottom:40px}
 .product-details .gallery-controls{padding-top:75px;gap:10px}
 .tab-content{padding-top:30px}
+.sub-category .sub-title{font-size:28px}
 .cargo-details .sub-title{padding-bottom:38px}
 .info-product{padding-bottom:3px}
 .info-pallet{padding-bottom:15px}
 .pack-info .sub-title{padding-bottom:30px}
 .pack-info .paragraph{font-size:19px}
 .modal-content .swiper-slide{padding-bottom:0}
-.modal-content .swiper-slide img{width:100%;height:100%}
+.modal-content .swiper-slide img{width:100%;height:430px}
+.modal-content{top:11%}
 .news-section{margin-top:110px;margin-bottom:100px}
 .news-section-details{margin-top:110px;margin-bottom:80px}
 .news-section-details .padding-item-card{padding-bottom:65px}
@@ -411,6 +425,7 @@ main{padding-top:115px}
 .news-section-details .sub-title{font-size:23px}
 .head-content .sub-title{font-size:23px}
 .img-top img{height:210px}
+.way-info .sub-title{font-size:23px}
 .theme-news img{width:95px}
 .gallery{margin-top:110px}
 .gallery .main-title{padding-bottom:50px}
@@ -438,18 +453,18 @@ main{padding-top:115px}
 .box-mg{top:-6px}
 .weight-mg{top:-11px}
 .deminsion-mg{top:-5px}
+.modal-contact .gallery-controls{padding-top:5%!important}
 .carton-mg{top:-5px}
 .container-mg{top:15px}
 .page-jordan-title{padding-bottom:50px}
 .jordan{padding-top:110px;padding-bottom:50px}
-.importers{padding-top:50px}
-.global{padding-top:50px}
-.global{margin-bottom:100px}
+.jordan-row .sub-title{font-size:28px}
+.jordan-mg img{height:520px}
 }
 @media screen and (max-width:1024px) and (min-width:1000px){
 main{padding-top:86px}
 .sustainability-section{margin-top:60px}
-.sustainability-section{margin-top:-100px}
+.sustainability-section{margin-top:0}
 .sustainability-img img{width:85%;border-radius:47px}
 .upper-green .green-decorative{left:49px;top:-22px}
 .upper-yellow .yellow-decorative{bottom:-53px;right:27px}
@@ -465,6 +480,7 @@ main{padding-top:86px}
 .car-line{right:0;top:10%}
 .car-line img{width:227px}
 .cloud-line{right:0;bottom:35%}
+.sub-category .sub-title{font-size:26px;padding-top:10px}
 .cloud-line img{width:340px}
 .cloud-blue{right:261px;bottom:41%}
 .cloud-blue img{width:100px}
@@ -481,7 +497,8 @@ main{padding-top:86px}
 .left-blue img{width:25px}
 .right-green{bottom:13px}
 .right-green img{width:40px}
-.commitment-section{padding-top:85px;padding-bottom:160px}
+.commitment-section{padding-top:0;padding-bottom:100px;margin-top:-90px}
+.sustainability-title .main-title{padding-bottom:0}
 .comm-abs{border-radius:0 55px 55px 0}
 .width-se{width:87%}
 .sust-header .page-header{padding-bottom:140px;top:-26px}
@@ -512,14 +529,14 @@ main{padding-top:86px}
 .product-details .col-lg-2{width:20.66667%}
 .cargo-details .sub-title{font-size:20px;padding-bottom:20px}
 .cargo-details .paragraph{font-size:15px}
-.btns-product{padding-top:30px}
+.modal-content{top:11%}
 .pack-info .sub-title{font-size:21px;padding-bottom:15px}
 .pack-info .paragraph{font-size:16px}
 .info-product{padding-bottom:3px}
 .info-pallet{padding-bottom:3px}
 .modal-content .swiper-slide{padding-bottom:0!important}
-.modal-content .swiper-slide img{width:75%;height:100%}
-.modal-content .gallery-controls{padding-top:30px}
+.modal-content .swiper-slide img{width:100%;height:370px}
+.modal-content .gallery-controls{padding-top:5%!important}
 .news-card .arrow svg{width:35px}
 .news-card .content{padding:30px 14px}
 .main-news .arrow svg{width:35px}
@@ -531,6 +548,7 @@ main{padding-top:86px}
 .theme-news img{width:73px;height:979px}
 .news-section-details .padding-item-card{padding-bottom:33px}
 .news-section-details .sub-title{font-size:22px}
+.way-info .sub-title{font-size:22px;font-weight:500;margin-top:15px;line-height:1;margin-left:15px}
 .gallery{margin-top:80px}
 .gallery .main-title{padding-bottom:30px}
 .gallery .swiper-slide img{width:454px;height:300px}
@@ -560,17 +578,18 @@ main{padding-top:86px}
 .container-mg{width:25px!important;top:1px}
 .certifications{gap:20px}
 .certifications img{width:30px;height:30px}
-.colors span.color{width:11px;height:11px}
+.colors img{width:180px;height:auto}
 .white-chalk{font-size:13px;gap:10px}
 .ce{width:30px!important;height:30px!important}
 .page-jordan-title{padding-bottom:30px}
-.world-map{padding-top:0;padding-right:20px}
 .jordan{padding-top:80px}
-.global{margin-bottom:100px}
-.rum-petra-grid img{height:190%}
-.importers{padding-top:30px}
-.global{padding-top:30px}
-.jordan{padding-bottom:40px}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row .sub-title{padding-top:50px;font-size:26px}
+.jordan-row .paragraph{font-size:18px}
+.jordan-mg img{height:450px}
+.jo-journey{padding-bottom:40px;font-size:16px}
+.world-map{padding-bottom:100px}
 }
 @media screen and (max-width:900px){
 .product-mg img{height:240px;width:auto}
@@ -637,8 +656,9 @@ main{padding-top:90px}
 .policy-list li a{font-size:15px}
 .polcy-part p{padding-bottom:20px}
 .policy-list li{padding-bottom:15px}
-.commitment-section{padding-top:70px;padding-bottom:90px}
+.commitment-section{padding-top:0;padding-bottom:90px}
 .commitment-section .paragraph{font-size:15px}
+.sustainability-title .main-title{padding-bottom:0}
 .right-green{bottom:13px}
 .right-green img{width:30px}
 .left-blue{left:0;top:16px}
@@ -654,6 +674,7 @@ main{padding-top:90px}
 .contact-background .inner{padding-top:54px;padding-bottom:51px}
 .contact-info-column h3{font-size:25px}
 .contact-info-column a,.contact-info-column p{font-size:17px}
+.section-contact iframe{margin-bottom:40px;height:400px}
 .cloud-image-wrapper img{bottom:136px;width:90px}
 .news-card{flex-direction:column;height:auto}
 .main-news .content .paragraph{left:62px}
@@ -695,9 +716,8 @@ main{padding-top:90px}
 .features-list li{padding-bottom:15px;font-size:15px}
 .tab-button{padding:0;font-size:20px}
 .tab-header{gap:50px}
-.tab-pane tr td{width:50%;display:inline-block}
-.tab-pane tr td:nth-child(3){padding-left:0;padding-top:40px;padding-right:20px}
-.tab-pane tr td:first-child{padding-right:20px}
+.tab-pane tr td p{width:95%}
+.sub-category .sub-title{font-size:25px;padding-top:10px}
 .cargo-details .sub-title{font-size:20px}
 .pack-info .sub-title{font-size:19px}
 .pack-info .paragraph{font-size:15px}
@@ -710,8 +730,9 @@ main{padding-top:90px}
 .product-details{padding-top:40px;padding-bottom:25px}
 .pack-info .sub-title{padding-bottom:15px}
 .modal-content .gallery-controls{padding-top:30px!important}
-.modal-content{width:70%}
+.modal-content{width:85%}
 .modal-content .gallery-controls{padding-top:10px}
+.way-info .sub-title{font-size:20px;font-weight:500;margin-top:10pxpx;line-height:1;margin-left:15px}
 .slide-diecut .sub-title{font-size:18px;padding-top:20px}
 .product-details .gallery-controls{gap:10px;padding-top:55px}
 .product .swiper-slide{justify-content:center}
@@ -744,18 +765,15 @@ main{padding-top:90px}
 .container-mg{width:23px!important;top:-6px}
 .page-jordan-title{padding-bottom:30px}
 .jo-mg{padding-left:0;padding-right:0;margin-top:10px}
-.rum-petra-grid{gap:10px;padding-left:19.2px;padding-right:calc(var(--bs-gutter-x) * .5)}
-.rum-petra-grid img{height:100%}
-.rum img{width:100%!important;float:none}
 .jordan{padding-bottom:0;padding-top:70px}
-.importers{padding-top:20px}
-.world-map{padding-right:0;padding-top:20px;text-align:center}
-.jordan-map{top:10px;padding-bottom:20px}
-.jordan-map img{width:45%}
-.global{margin-bottom:70px;padding-top:10px}
-.global-info{padding-left:19.2px!important}
-.jordan .order-res-1{order:1}
-.jordan .padding-t{padding-top:10px}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row .sub-title{padding-top:50px;font-size:24px}
+.jordan-row .paragraph{font-size:17px}
+.jordan-mg img{height:380px}
+.jo-journey{padding-bottom:40px;font-size:16px}
+.world-map{padding-bottom:80px}
+#map{height:52vh!important}
 }
 @media screen and (max-width:650px){
 .cat-mg-cn img{width:60%}
@@ -804,7 +822,7 @@ main{padding-top:80px}
 .cloud-blue{right:164px;bottom:16%}
 .cloud-blue img{width:60px}
 .certificate-wrapper img{width:250px}
-.comm-abs{height:66%;width:91%;left:17px;top:40%;border-radius:20px}
+.comm-abs{height:66%;width:94%;left:12px;top:40%;border-radius:20px}
 .commitment-section{padding-top:0;padding-bottom:124px}
 .policy-download img{width:28px}
 .column-certficate{display:flex;justify-content:center}
@@ -812,7 +830,7 @@ main{padding-top:80px}
 .deco-certifi{left:30px;bottom:20px}
 .content-box .sub-title{padding-bottom:10px;padding-top:0}
 .upper-green .green-decorative{position:absolute;width:66px;top:-15px;left:-4px;z-index:-1}
-.certificate-wrapper{padding:51px;background-color:none;background-image:url(/src/images/deco-certfi.png);background-repeat:no-repeat;background-size:contain;background-position:center}
+.certificate-wrapper{padding:51px;background-color:none;background-image:url(/srcNew/images/deco-certfi.png);background-repeat:no-repeat;background-size:contain;background-position:center}
 .sust-logo img{width:75px!important;right:51px;top:42px}
 .lower-decorate .green-decorative{position:absolute;width:137px;bottom:-32px;right:-5px}
 .lower-decorate .yellow-decorative{position:absolute;width:66px;left:-4px;top:-17px;z-index:-1}
@@ -857,6 +875,7 @@ main{padding-top:80px}
 .swiper-style .swiper-button-next img{width:15px}
 .gallery .gallery-controls{padding-top:28px}
 .next img{width:13px}
+.way-info .sub-title{margin-top:12px;font-size:19px;margin-left:10px}
 .section-title-contact{margin-bottom:20px}
 .section-contact{margin-top:50px}
 .company-contact-info h3{margin-bottom:15px}
@@ -871,8 +890,9 @@ main{padding-top:80px}
 .tab-button{font-size:17px}
 .tab-header{align-items:center;gap:30px}
 .tab-pane tr td{width:100%;display:block}
+.tab-pane tr td p{width:100%}
 .tab-pane tr td:nth-child(2){padding-top:40px}
-.tab-pane tr td:first-child,.tab-pane tr td:nth-child(3){padding-right:0}
+.sub-category .sub-title{font-size:23px}
 .benifit-title .tab-button.active::after{bottom:-12px}
 .benifits-section{padding-top:14px;padding-bottom:19px}
 .product-bx{padding-left:25px;padding-right:10px;margin-bottom:20px;padding-bottom:25px;padding-top:50px}
@@ -884,6 +904,7 @@ main{padding-top:80px}
 .slide-diecut .sub-title{font-size:19px}
 .product-details .gallery-controls{gap:5px;padding-top:40px}
 .product-details{padding-top:30px;padding-bottom:20px}
+.colors img{width:163px;height:auto}
 .product-img{order:0}
 .pack-info{order:1;padding-top:25px;margin-top:0;padding-bottom:10px}
 .cargo-details{order:2;padding-top:15px}
@@ -906,16 +927,23 @@ main{padding-top:80px}
 .download-control{width:100%}
 .image-clouds-top{width:100px;padding-bottom:10px}
 .page-jordan-title{padding-bottom:20px}
-.pWithBG{width:100%;font-size:18px;height:50px}
-.pWithBG::before{width:50px;height:50px;background-size:contain}
-.pWithBG span{top:18px;padding-left:10px}
-.world .importers .pWithBG{height:60px}
-.jordan-map{top:5px}
-.jordan-map img{width:80%}
-.rum-petra-grid{padding-left:8px;float:none}
 .jordan{padding-bottom:20px;padding-top:50px}
-.global{margin-bottom:50px}
-.global-info{padding-left:8px!important}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row{padding-bottom:0}
+.jordan-row .sub-title{padding-top:30px;font-size:23px;padding-bottom:10px}
+.jordan-row .paragraph{font-size:16px}
+.jordan-mg img{height:320px}
+.jo-journey{padding-bottom:30px;font-size:15px}
+.world-map{padding-bottom:60px}
+.jo-info{padding-bottom:40px}
+.sea-padding{padding-left:0;padding-right:0}
+.rum-padding{padding-left:0;padding-right:0}
+.petra-padding{padding-left:0;padding-right:0}
+.leaflet-popup-content-wrapper{font-size:14px;max-width:90vw}
+.leaflet-popup-content a{font-size:14px}
+.back-btn{font-size:18px;padding:5px 14px}
+.country-label{font-size:12px}
 }
 @media screen and (max-width:320px){
 .car-line{top:27%}
@@ -944,7 +972,6 @@ main{padding-top:80px}
 .sustainability-img img{width:80%;border-radius:50px}
 .empowering-text .sub-title{padding-bottom:20px}
 .sustainability-inner-1{padding-bottom:80px;padding-top:5px;margin-top:-10px}
-.sustainability-section{margin-top:-39px}
 .sust-img-ds{display:flex;justify-content:end}
 .upper-green .green-decorative{left:90px;top:-22px}
 .upper-green .yellow-decorative{left:101px;top:-22px}
@@ -961,8 +988,8 @@ main{padding-top:80px}
 .cloud-blue{right:275px;bottom:440px}
 .policy-list{padding-bottom:36px}
 .sust-logo img{width:103px!important}
-.commitment-section{padding-top:104px;padding-bottom:137px}
-.sustainability-title .main-title{padding-bottom:0;font-size:34px}
+.commitment-section{padding-top:0;padding-bottom:90px}
+.sustainability-title .main-title{padding-bottom:20px;font-size:34px}
 .polcy-part .paragraph{padding-bottom:50px}
 .cloud-image-wrapper img{width:120px;bottom:210px}
 .contact-info-column a,.contact-info-column p{font-size:17px}
@@ -995,7 +1022,7 @@ main{padding-top:80px}
 .product-bx{margin-top:0;padding-top:80px;padding-left:60px;padding-right:30px;width:90%;float:right}
 .product .swiper-slide img{width:85%}
 .white-chalk{font-size:13px}
-.colors span.color{width:13px;height:13px}
+.colors img{width:200px;height:auto}
 .features-list li svg{width:70px;height:70px}
 .features-list li{font-size:14px}
 .route-top .sub-title{font-size:18px}
@@ -1003,11 +1030,13 @@ main{padding-top:80px}
 .certifications img{width:30px;height:30px}
 .ce{width:35px!important;height:30px!important}
 .btns-product{padding-top:60px}
+.modal-contact .gallery-controls{padding-bottom:0}
 .cargo-details .paragraph{font-size:16px}
 .pack-info .paragraph{font-size:17px}
 .pack-info .sub-title{font-size:20px}
-.modal-content .swiper-slide img{width:80%}
-.modal-content{padding-top:30px;top:16%}
+.modal-content .swiper-slide img{width:100%;height:400px}
+.modal-content{padding-top:0;top:9%}
+.modal-content .gallery-controls{padding-top:2%!important}
 .slide-diecut .sub-title{padding-top:15px}
 .box-mg{width:32px!important;position:relative;top:-16px}
 .weight-mg{width:19px!important;top:-16px}
@@ -1015,9 +1044,9 @@ main{padding-top:80px}
 .carton-mg{width:27px!important;top:-6px}
 .container-mg{width:25px!important;top:5px}
 .jo-mg{margin-top:0}
-.jordan-row{display:flex;align-items:center}
-.world-map{padding-right:70px;padding-top:0}
-.rum-petra-grid img{height:112%}
-.jordan-map img{width:95%}
-.pWithBG{font-size:18px}
+.way-info .sub-title{font-size:23px}
+.world-map{padding-bottom:100px}
+.jordan-mg img{height:415px}
+.jordan-row .sub-title{font-size:25px}
+.jordan-row .paragraph{font-size:18px}
 }
