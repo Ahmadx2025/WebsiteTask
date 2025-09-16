@@ -1,0 +1,1052 @@
+main{padding-top:115px}
+.main-category-page-cn{padding-top:40px;background-image:url(../images/cat-banner.jpg);padding-bottom:120px;background-size:100% 85%;background-position:top;background-repeat:no-repeat}
+.cat-mg-cn img{width:90%;position:relative;display:block;will-change:transform}
+.ov-x-none{overflow:hidden}
+.sub-category .sub-title{font-size:30px;font-weight:400;padding-top:15px}
+.floating-anim{position:relative;display:block;will-change:transform;transition:transform 1s ease-out}
+.main-category-title{padding-bottom:35px}
+.main-category-title .main-title{padding-bottom:25px}
+.product-box{text-align:center;background-color:#f4f4f4;padding-bottom:50px;margin:3px}
+.product-info{display:flex;align-items:center;justify-content:space-between;width:75%;margin:0 auto}
+.product-box.chalk:hover{background-color:rgb(210 229 238 / 32%)}
+.product-mg{padding-top:135px;padding-bottom:50px;text-align:center}
+.product-mg img{height:475px;width:auto}
+.product-title{font-size:26px;color:#4d4d4d}
+.category-products{padding-bottom:90px}
+.page-header img{width:100%;height:auto}
+.page-header{position:relative;padding-bottom:135px}
+.page-theme img{width:100%;height:auto}
+.page-theme{position:absolute;bottom:0}
+.quality-head .main-title{padding-bottom:70px}
+.quality-head .paragraph{padding-bottom:70px}
+.quality-head{margin-top:-90px;position:relative}
+.certificate-cn img{width:100%;height:auto;max-height:500px;object-fit:contain;object-position:left}
+.ce-cn img{width:100%;height:150px;object-fit:contain}
+.ce-cn{height:100%;display:flex;align-items:center;justify-content:center}
+.certificate-theme img{width:100%}
+.certificates-cn{background-color:#daecf3;padding-bottom:145px;border-bottom:10px solid #fff}
+.certificates-cn .main-title{padding-top:50px;padding-bottom:90px}
+.history-cn{background-color:#f4f4f4;padding-bottom:250px;position:relative}
+.history-timeline-cn{position:relative;overflow:hidden}
+.history-timeline-cn:before{content:'';position:absolute;top:0;left:50%;margin-left:-1px;width:1px;height:100%;background:#838383;z-index:1}
+.timeline-block{width:-webkit-calc(50% + 8px);width:-moz-calc(50% + 8px);width:calc(50% + 8px);display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-moz-box-pack:justify;justify-content:space-between;clear:both;padding-bottom:30px}
+.timeline-block-right{float:right}
+.timeline-block-left{float:left;direction:rtl}
+.marker{width:16px;height:16px;border-radius:50%;background:#f2b45e;z-index:1}
+.timeline-content{width:85%;color:#666;position:relative;margin-top:-5px}
+.timeline-content h3{margin-bottom:25px;font-size:25px;font-weight:500;color:#e85e5a}
+.timeline-content span{font-size:15px;color:#a4a4a4}
+.timeline-content p{font-size:14px;line-height:1.5em;word-spacing:1px;color:#888}
+.timeline-block-left .paragraph{direction:ltr;text-align:right}
+.history-cn .main-title{padding-top:120px;padding-bottom:80px}
+.history-theme{position:absolute;bottom:0}
+.history-theme img{width:100%;height:auto}
+.numWithBG::before{content:'';display:block;width:60px;height:60px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 59.66 53.41' width='70px' height='70px'><defs><style>.cls-1 { isolation: isolate; } .cls-2 { fill: %23d1c4dd; opacity: 1; }</style></defs><g class='cls-2'><g id='Layer_2' data-name='Layer 2'><g id='Layer_1-2' data-name='Layer 1'><path class='cls-2' d='M58.17,18C52.56,5,42.53-3.88,29.53,1.7S-7.1,31.82,2.06,42.57C11.76,54,26.63,56,39.64,50.44S63.78,30.9,58.17,18Z'></path></g></g></g></svg>");background-size:contain;background-repeat:no-repeat;position:absolute;top:10px;left:-15px;z-index:0}
+.numWithBG{font-weight:500;font-size:50px;-webkit-text-fill-color:transparent;-webkit-text-stroke:1.2pt;color:#4d4d4d;width:70px;height:70px;position:relative;margin-left:15px}
+.numWithBG span{z-index:1;position:relative}
+.mk-chalk-w{width:90%}
+.mk-chalk-w-2{width:96%}
+.gray-color{color:#4d4d4d}
+.regular-weight{font-weight:400}
+.making-chalks-cn .main-title{padding-top:175px;padding-bottom:30px}
+.making-chalks-cn .sub-title{padding-bottom:65px}
+.way-info .sub-title{font-size:25px;font-weight:500;margin-top:11px;margin-left:10px}
+.way-info{padding-bottom:15px}
+.text-with-num-cn{padding-bottom:100px}
+.making-chalks-cn{padding-bottom:170px}
+.parent{display:grid;grid-template-columns:23% 23% 50%;grid-template-rows:repeat(2,1fr);grid-column-gap:15px;grid-row-gap:15px;height:690px;margin-bottom:160px;position:relative}
+.div1{grid-area:1/1/2/3;height:100%}
+.div2{grid-area:2/1/3/2;height:100%}
+.div3{grid-area:2/2/3/3;height:100%}
+.div4{grid-area:1/3/3/4;height:100%}
+.parent img{width:100%;height:100%;object-fit:cover;display:block;object-position:bottom}
+.parent>div{overflow:hidden}
+.grid-theme-bottom{position:absolute;left:-50px;bottom:110px;z-index:-1}
+.grid-theme-top{position:absolute;right:-7px;top:-60px;z-index:-1}
+.making-chalk-theme-left{position:absolute;left:0;bottom:6%;text-align:left;z-index:-1}
+.making-chalk-theme-right{position:absolute;right:0;bottom:25%;text-align:right;z-index:-1}
+.making-chalk-theme-left svg,.making-chalk-theme-right svg{width:60%;height:auto}
+.upper-green .green-decorative{position:absolute;width:104px;left:-10px;top:-20px;z-index:-1}
+.upper-yellow .yellow-decorative{position:absolute;width:205px;bottom:-76px;right:49px;z-index:-1}
+.sustainability-inner-1{padding-bottom:140px;padding-top:10px}
+.sustainability-img{height:auto;max-width:100%}
+.sustainability-img img{object-fit:cover;height:100%;width:100%;border-radius:65px;overflow:hidden}
+.empowering-text .sub-title{padding:0;margin-bottom:0;padding-bottom:40px;font-weight:400}
+.empowering-text .paragraph{margin-bottom:0;padding-bottom:0;font-weight:400}
+.lower-decorate .yellow-decorative{position:absolute;width:104px;top:-24px;left:-5px;z-index:-1}
+.sustainability-inner-2{padding-bottom:90px}
+.lower-decorate .green-decorative{right:-20px;position:absolute;width:205px;z-index:-1;bottom:-56px}
+.sustainability-section{z-index:1}
+.polcy-background{background:rgba(210,229,238,.76);position:relative;top:-1px}
+.ethical-part{padding-top:96px}
+.certificate-wrapper{max-width:fit-content}
+.sust-logo img{width:120px!important;position:absolute;right:0;top:-13px}
+.ethical-part .sub-title{padding-bottom:40px;margin-bottom:0;font-weight:400}
+.ethical-part .paragraph{margin-bottom:0;font-weight:400}
+.polcy-part .paragraph{margin:0;padding-bottom:60px;font-weight:400}
+.polcy-part .sub-title{margin-bottom:0;font-weight:400}
+.policy-list{padding-bottom:50px;padding-top:36px;margin-bottom:0}
+.policy-list .policy-download{font-size:16px;color:#000;text-decoration:none;font-weight:400}
+.policy-list li{padding-bottom:20px}
+.policy-list li a img{position:relative;top:-3px;padding-right:3px}
+.polcy-part{padding-top:90px}
+.car-line{position:absolute;right:0;top:12%}
+.car-line img{width:320px}
+.cloud-line{object-fit:contain;position:absolute;right:0;bottom:30%}
+.cloud-line img{width:490px}
+.cloud-blue{object-fit:contain;position:absolute;right:369px;bottom:470px}
+.cloud-blue img{width:164px}
+.commitment-section{padding-bottom:150px;z-index:1}
+.commitment-items{position:relative;z-index:1}
+.content-box{padding-top:65px}
+.content-box .sub-title{padding-bottom:53px;margin-bottom:0;font-weight:400}
+.icon-pdf-sus .sustainability-pdf a img{width:100%px}
+.icon-pdf-sus .sustainability-pdf{position:absolute;bottom:-25px;left:-30px}
+.content-box .paragraph{padding-bottom:70px;margin-bottom:0;font-weight:400}
+.left-blue{position:absolute;left:0}
+.right-green{position:absolute;right:0;bottom:140px}
+.comm-abs{width:100%;background:rgba(199,221,170,.5);position:absolute;top:0;z-index:-1;border-radius:0 130px 130px 0}
+.deco-certifi{position:absolute;z-index:-1;bottom:-20px;left:-100px}
+.deco-certifi img{height:620px;width:631px}
+.btn-style .main-btn a{padding:7px 25px}
+.wave-grow img{width:100%;object-fit:contain}
+.section-title-contact{margin-bottom:60px;z-index:2;color:#4d4d4d;position:relative;background:0 0}
+.contact-background{background-color:#f4f4f4;position:relative;z-index:1}
+.contact-background .inner{padding-top:130px;padding-bottom:100px}
+.section-contact{margin-top:150px;position:relative}
+.contact-content-wrapper{align-items:center}
+.contact-info-column{display:flex;flex-direction:column;justify-content:space-between;height:80%}
+.contact-info-column p{font-size:20px;line-height:1.6;color:#4d4d4d;font-weight:400}
+.contact-info-column h3{font-weight:500;margin-bottom:30px;font-size:35px}
+.contact-info-column a{font-size:20px;line-height:1.6;color:#4d4d4d;font-weight:400;display:block;text-decoration:none}
+.contact-info-column a svg{width:20px;margin-right:4px}
+.info-contact{margin-top:-4px}
+.cloud-image-wrapper img{height:auto;position:absolute;bottom:265px}
+.section-contact .private-label-form input,.section-contact .private-label-form textarea{width:100%;padding:12px 15px;margin-bottom:10px;border:none;background-color:#fff;font-size:14px}
+.section-contact .private-label-form{padding-bottom:0}
+.inner-commercial .private-label-form input,.inner-commercial .private-label-form textarea{width:100%;padding:12px 15px;margin-bottom:10px;border:none;background-color:#fff;font-size:14px}
+.inner-commercial .private-label-form{padding-bottom:0;padding-top:135px}
+.section-contact-commercial{position:relative;background-color:#f4f4f4;padding-bottom:120px}
+.inner-commercial{padding-bottom:100px}
+.company-contact-info h3{color:#4d4d4d;font-weight:500;font-size:2rem}
+.section-contact iframe{margin-bottom:100px}
+.inner-commercial .form-private-label{padding-top:135px}
+.commercial-info-column h3{font-weight:500;font-size:1.75rem;padding-bottom:60px;color:#4d4d4d;margin:0}
+.commercial-info-column p{font-weight:300;font-size:1.25rem;font-weight:400;color:#4d4d4d;margin:0}
+.form-private-label .commercial{margin-bottom:100px}
+.commercial-content-row{position:relative;z-index:2}
+.gallery body{min-height:100vh;display:flex;flex-direction:column}
+.gallery footer{margin-top:auto}
+.tab-pane tr td p{width:90%}
+.news-section{margin-top:150px;margin-bottom:180px}
+.page-news-title{padding-bottom:60px}
+.page-news-title .main-title{margin-bottom:0}
+.main-news{position:relative;border-radius:30px;overflow:hidden;height:653px}
+.news-section-details .main-news{position:relative;border-radius:30px;overflow:hidden;height:700px}
+.news-section-details{margin-top:150px;margin-bottom:90px}
+.news-section-details .content-news{padding-top:35px}
+.news-section-details .content-news .head-content{padding-bottom:30px}
+.main-news img{position:relative;width:100%;height:100%;object-fit:cover;display:block;z-index:-2}
+.main-news .overlay-bottom{position:absolute;bottom:0;left:0;width:100%;height:25%;padding:20px;background:linear-gradient(to top,rgba(0,0,0,.7),transparent);color:#fff;z-index:-1}
+.main-news .overlay-top{position:absolute;top:0;left:0;width:100%;height:25%;padding:20px;background:linear-gradient(to bottom,rgba(0,0,0,.7),transparent);color:#fff;z-index:-1}
+.main-news .content .head-content{position:absolute;top:30px;left:120px}
+.main-news .content .head-content .sub-title{color:#fff}
+.main-news .date{color:#fff}
+.main-news .content .paragraph{position:absolute;bottom:30px;left:120px;color:#fff}
+.main-news .arrow{position:absolute;top:30px;right:30px}
+.news-card{display:flex;background:#f4f4f4;border-radius:30px;overflow:hidden;position:relative;height:314px}
+.news-card img{width:50%;object-fit:cover;height:100%}
+.news-card .content{padding:30px 32px;width:50%;display:flex;flex-direction:column;justify-content:space-between}
+.news-card .date{font-size:17px;color:#4d4d4d;font-weight:400}
+.head-content .sub-title{font-size:25px;text-transform:uppercase;font-weight:400;color:#4d4d4d;margin-bottom:0}
+.news-section-details .news-card{height:auto}
+.news-card-padding{padding-bottom:25px}
+.content .paragraph{margin-bottom:0}
+.main-news .content{padding:30px 27px;display:flex;flex-direction:column;justify-content:space-between}
+.img-left img{order:0;object-position:right}
+.img-left .content{order:1}
+.img-right img{order:1;object-position:left}
+.img-right .content{order:0}
+.img-top{flex-direction:column;height:auto}
+.img-top img{width:100%;height:350px;object-fit:cover;order:0}
+.img-top .content{width:100%;order:1}
+.news-section-details .padding-item-card{padding-bottom:110px}
+.theme-news{position:absolute;left:-39px}
+.gallery .main-title{margin-bottom:0;padding-bottom:60px}
+.gallery{margin-top:150px}
+.swiper{width:99%;height:100%}
+.swiper-slide{text-align:center;font-size:18px;background:0 0;display:flex;justify-content:center;align-items:start}
+.gallery .swiper-slide img{display:block;object-fit:cover;width:629px;height:390px}
+.swiper-style .swiper-pagination{position:static;text-align:center;max-width:fit-content}
+.swiper-style .swiper-pagination-bullet{background-color:#f4f4f4;width:17px;height:17px;display:inline-block;border-radius:var(--swiper-pagination-bullet-border-radius,50%);opacity:1;margin-right:20px!important;margin-left:0!important}
+.swiper-style .swiper-pagination-bullet-active{background-color:#c3c3c3;width:17px}
+.product-details .swiper-style .swiper-pagination-bullet-active{background-color:#727272}
+.next img{width:20px}
+.swiper-style .swiper-button-next:after{content:none}
+.swiper-style .swiper-button-next{position:relative;bottom:-9px}
+.gallery-controls{display:flex;justify-content:center;padding-top:0;padding-bottom:10px;gap:10px;align-items:center}
+.swiper-content{flex-direction:column}
+.swiper-content .sub-title{color:#4d4d4d;font-weight:400;margin-bottom:0;padding-top:35px}
+.swiper-style .swiper-slide{box-sizing:border-box;margin:0;padding:0}
+.swiper-style .swiper-wrapper{display:flex}
+.img-right-border{border-radius:0 30px 30px 0}
+.img-left-border{border-radius:30px 0 0 30px}
+.gallery .gallery-controls{padding-bottom:100px;padding-top:90px;justify-content:start}
+.swiper-style .swiper-pagination-bullets.swiper-pagination-horizontal{width:fit-content}
+.product .swiper-slide img{display:block;object-fit:contain;width:80%;height:100%}
+.product .swiper-slide{justify-content:start}
+.modal-contact .swiper-pagination-bullet,.product .swiper-pagination-bullet,.product-details .swiper-pagination-bullet{background-color:#d8d8d8}
+.modal-contact .swiper-pagination-bullet-active,.product .swiper-pagination-bullet-active,.product-details .swiper-pagination-bullet-active{background-color:#c3c3c3}
+.product{position:relative}
+.btns-product{padding-top:50px}
+.background-product{background-color:#f4f4f4;padding-bottom:30px}
+.product .gallery-controls{justify-content:center;width:85%;padding-top:15%}
+.product .swiper{width:100%}
+.slide-diecut .sub-title{padding-top:30px}
+.product-bx{background-color:#d2e5ee;border-radius:30px 0 0 30px;padding-right:40px;padding-bottom:40px;margin-bottom:40px;height:100%;width:90%;float:right;margin-top:0;padding-top:85px;padding-left:75px}
+.product-bx .sub-title{font-weight:700;font-size:22px;color:#4d4d4d;margin-bottom:0;padding-bottom:40px}
+.product-bx .main-btn{width:100%}
+.product-bx .main-btn a{display:flex;align-items:center;justify-content:space-between;width:100%;padding:10px;font-size:16px}
+.product-bx .download-btn{border-radius:0}
+.product-bx .paragraph{margin-bottom:0;padding-bottom:25px}
+.theme-product{background-color:rgb(210,229,238,.17)}
+.features-list{list-style:none;padding:0}
+.features-list li{font-size:16px;font-weight:400;display:flex;flex-direction:column;align-items:start;margin-bottom:0;padding-bottom:20px;padding-left:0;padding-right:0;line-height:1.1}
+.features-list li svg{width:80px;height:80px;padding-bottom:10px}
+.info-product .paragraph{padding-bottom:10px}
+.colors{gap:4px}
+.btns-product .main-btn a{font-weight:400;padding:5px 10px;cursor:pointer}
+.box-product{padding:0}
+.route-top .sub-title{font-size:23px;color:#4d4d4d;padding-bottom:180px;padding-top:60px;font-weight:400;margin-bottom:0}
+.color-title .sub-title{font-weight:400;font-size:18px;color:#000;padding-bottom:25px;padding-top:10px}
+.certifications{gap:35px;padding-bottom:40px}
+.certifications img{width:40px;height:40px}
+.ce{width:50px!important;height:40px!important}
+.white-chalk{font-weight:500;font-size:15px;gap:30px;padding-top:13px;padding-bottom:35px;color:#4d4d4d}
+.white-chalk img{width:236px}
+.theme-product img{width:100%}
+.benifits-section{padding-top:67px;padding-bottom:67px}
+.tab-header{gap:90px;border-bottom:4px solid #f4f4f4}
+.tab-button{background:0 0;border:none;font-size:27px;color:#4d4d4d;padding:15px 0;position:relative;cursor:pointer;font-weight:400}
+.tab-button.active{color:#f2b45e;font-weight:400}
+.tab-button.active::after{content:'';position:absolute;bottom:-12px;left:0;height:4px;width:100%;background-color:#f2b45e}
+.tab-pane{display:none}
+.tab-pane.active{display:block}
+.tab-content{padding-top:65px}
+.product-details{padding-top:70px;padding-bottom:60px;background-color:rgba(210,229,238,.17)}
+.product-details .swiper-slide{display:block}
+.product-details .swiper-slide img{width:75%;height:100%;object-fit:contain;display:inline}
+.product-details .gallery-controls{gap:10px;justify-content:start;padding-top:85px}
+.cargo-details{text-align:start;padding-top:100px}
+.cargo-details .sub-title{font-weight:500;font-size:23px;color:#4d4d4d;margin-bottom:0;padding-bottom:42px}
+.cargo-details .paragraph{font-weight:400;font-size:19px;margin-bottom:0}
+.cargo-details .paragraph span{font-weight:500}
+.cargo-details .paragraph span img{width:28px;height:32px;object-fit:contain;position:relative;top:10px}
+.info-product{padding-bottom:6px}
+.cargo-details li{padding-left:0;padding-right:0}
+.info-pallet{padding-bottom:20px}
+.cargo-details span{display:inline-block}
+.pack-info{text-align:start;padding-top:89px}
+.pack-info .sub-title{font-weight:500;font-size:25px;color:#008dd2;padding-bottom:40px;margin-bottom:0}
+.pack-info .paragraph{font-size:20px}
+.slide-diecut .sub-title{font-weight:500;font-size:23px;color:#4d4d4d;margin-bottom:0}
+.modal{overflow:hidden;position:fixed;z-index:2000;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.7)}
+.modal-content{background:#fff;top:14%;padding-bottom:10px;padding-top:20px;width:90%;height:auto;position:relative;border-radius:0;opacity:0;transform:translateY(-20px);transition:opacity .3s ease,transform .3s ease;margin-left:auto;margin-right:auto}
+.modal-content.show{opacity:1;transform:translateY(0)}
+.modal-content .gallery-controls{padding-top:50px;justify-content:center;padding-top:5%!important}
+.modal-content .swiper-slide{display:flex;justify-content:center;align-items:center;padding-bottom:0}
+.modal-content .swiper-slide img{width:100%;height:500px}
+.modal-content .btns-product{padding-top:20px}
+.close{position:absolute;top:-4px;right:10px;font-size:37px;cursor:pointer;color:#4d4d4d;z-index:1000}
+.padding-30{padding-left:30px}
+.info-cargo{gap:11px;margin-right:9px}
+.info-cargo-2{gap:24px;align-items:center;margin-right:14px}
+.container-mg{position:relative;width:30px!important;height:29px!important;top:15px}
+.carton-mg{position:relative;top:-5px;width:33px!important;height:25px!important}
+.deminsion-mg{width:28px!important;height:26px!important;position:relative;top:-6px}
+.weight-mg{width:22px!important;height:32px!important;position:relative;top:-9px}
+.box-mg{width:40px!important;height:23px!important;top:-5px}
+.image-clouds-top{top:0;left:0;width:170px;z-index:1;padding-bottom:30px}
+.image-sun-top img{position:absolute;top:60px;right:90px;width:170px;z-index:1}
+.image-wave-bottom{position:absolute;bottom:-15px;width:100%;z-index:0}
+.emoji-image{padding-bottom:22px;margin:0;padding-top:35px}
+.emoji-image img{width:75px;height:auto}
+.download-control{justify-content:space-between;border-radius:0;border:2px solid #008dd2;height:40px;color:#008dd2;background-color:#f4f4f4;width:100%;padding:0;align-items:center;text-decoration:none}
+.download-control span{color:#008dd2;font-weight:500;font-size:16px}
+.btn-download{display:inline-block;background-color:#008dd2;cursor:pointer;display:flex;align-items:center;justify-content:center;border:none;width:20%;height:100%;text-decoration:none;font-weight:600}
+.icon-download{width:30px;display:block}
+.form-padding-top{padding-top:140px}
+.benifit-padding{padding-bottom:75px}
+.padding-60{padding-top:60px}
+.sustainability-title .main-title{padding-bottom:40px}
+.download-p{padding-bottom:50px}
+.page-jordan-title{padding-bottom:60px}
+.jordan{padding-bottom:60px;padding-top:150px}
+.jordan-row{padding-bottom:100px}
+.jordan-row .paragraph{font-size:20px}
+.jordan-row .sub-title{padding-bottom:20px;font-size:30px;padding-top:65px}
+.jordan-row img{width:100%}
+.jo-info{text-align:center}
+.jordan-mg img{height:555px;border-radius:20px;object-fit:cover}
+.jo-journey{padding-bottom:65px}
+.dead-sea svg{position:absolute;width:200px;bottom:-55px;left:-64px;z-index:-1}
+.sea-theme{position:absolute;padding-top:0}
+.rum svg{position:absolute;width:91px;top:-40px;right:-13px;z-index:-1}
+.sea-padding{padding-left:0}
+.rum-padding{padding-right:0}
+.jordan .paragraph{line-height:30px;margin-bottom:0}
+.world .paragraph{line-height:30px}
+.world-map{padding-bottom:140px}
+#map{height:65vh;position:relative;z-index:0;width:100%}
+.leaflet-control-attribution{display:none!important}
+.back-btn{position:absolute;top:10px;right:10px;background:#2d2d2e;padding:6px 12px;border-radius:6px;font-size:16px;font-weight:700;cursor:pointer;color:#fff;box-shadow:0 2px 6px rgba(0,0,0,.3);display:none;z-index:1000;transition:all .3s ease}
+.back-btn:hover{background:#f44336;color:#fff;transform:scale(1.1)}
+.leaflet-bar a:hover, .leaflet-bar a:focus{background-color: #2d2d2e !important;color: #fff !important;}
+.animated-line{stroke-dasharray:5,4;stroke-dashoffset:0;animation:dashmove 2s linear infinite;transition:stroke .3s ease}
+.leaflet-touch .leaflet-bar a{background-color:#2d2d2e;color:#fff}
+@keyframes dashmove{
+to{stroke-dashoffset:-50}
+}
+.country-label{font-family:Rubik,sans-serif;font-size:12px;font-weight:700;color:#222;text-shadow:1px 1px 4px rgba(255,255,255,.9);white-space:nowrap}
+.popup-name{font-size:19px}
+.leaflet-popup-content-wrapper{font-family:Rubik,sans-serif;font-size:17px;max-width:250px;color:#2d2d2e}
+.leaflet-popup-content{word-wrap:break-word}
+.popup-name{padding-bottom:5px}
+.popup-info{display:flex;align-items:center!important;color:#4d4d4d!important;padding-top:7px}
+.popup-info svg{width:18px;height:18px;margin-right:7px;flex-shrink:0}
+.leaflet-popup-content a{text-decoration:none;font-weight:400;font-size:15px}
+@media screen and (max-width:1680px){
+.cat-mg-cn img{width:80%}
+.cat-mg-cn{display:flex;align-items:center;justify-content:center}
+.main-category-page-cn{padding-bottom:85px}
+.product-mg img{height:325px;width:auto}
+.product-mg{padding-top:90px;padding-bottom:40px}
+.product-title{font-size:22px}
+.product-box{padding-bottom:35px}
+.product .gallery-controls{padding-bottom:20px}
+.category-products{padding-bottom:70px}
+.page-header{padding-bottom:80px}
+.page-theme{bottom:60px}
+.quality-head .main-title{padding-bottom:40px}
+.quality-head .paragraph{padding-bottom:65px}
+.certificates-cn .main-title{padding-top:30px;padding-bottom:60px}
+.ce-cn img{height:115px}
+.certificate-cn img{max-height:450px}
+.certificates-cn{padding-bottom:100px}
+.history-cn .main-title{padding-top:90px;padding-bottom:60px}
+.timeline-content h3{margin-bottom:10px}
+.history-cn{padding-bottom:200px}
+.making-chalks-cn .main-title{padding-top:120px;padding-bottom:20px}
+.making-chalks-cn .sub-title{padding-bottom:45px}
+.making-chalks-cn{padding-bottom:110px}
+.numWithBG{font-size:40px;width:50px;height:50px}
+.numWithBG::before{width:50px;height:50px;top:5px}
+.text-with-num-cn{padding-bottom:70px}
+.parent{margin-bottom:100px}
+.grid-theme-top svg{width:75%;height:auto}
+.grid-theme-top{text-align:right;right:-7px;top:-50px}
+.grid-theme-bottom{text-align:left;left:-30px;bottom:60px}
+.grid-theme-bottom svg{width:75%;height:auto}
+.sustainability-inner-1{padding-bottom:100px;padding-top:0}
+.sustainability-inner-2{padding-bottom:120px}
+.sustainability-section{margin-top:50px}
+.sustainability-title .main-title{padding-bottom:20px}
+.sust-header .page-theme{bottom:-14px}
+.car-line img{width:250px}
+.cloud-line img{width:395px}
+.cloud-line{bottom:31%}
+.cloud-blue img{width:100px}
+.cloud-blue{right:317px}
+.polcy-part{padding-top:64px}
+.deco-certifi img{width:478px;height:531px}
+.deco-certifi{left:-49px;top:-35px}
+.content-box{padding-top:0}
+.content-box .sub-title{padding-top:38px;padding-bottom:40px}
+.content-box .paragraph{padding-bottom:60px}
+.certificate-wrapper img{width:343px}
+.sust-logo img{width:110px!important;right:0;top:-15px}
+.left-blue{left:0;top:16px}
+.left-blue img{width:30px}
+.right-green{bottom:20px}
+.right-green img{width:40px}
+.icon-pdf-sus .sustainability-pdf{bottom:-31px;left:-24px}
+.icon-pdf-sus .sustainability-pdf a img{width:85%}
+.commitment-section{padding-top:0;padding-bottom:100px}
+.comm-abs{width:100%;border-radius:0 55px 55px 0}
+.width-se{width:80%}
+.ethical-part .sub-title{padding-bottom:29px}
+.section-title-contact{margin-bottom:50px}
+.section-contact{margin-top:110px}
+.section-contact iframe{margin-bottom:60px;height:450px}
+.contact-info-column h3{font-size:28px}
+.contact-info-column a,.contact-info-column p{font-size:19px}
+.contact-background .inner{padding-top:100px;padding-bottom:77px}
+.cloud-image-wrapper img{bottom:195px}
+.route-top .sub-title{padding-bottom:130px;font-size:20px}
+.product-bx{padding-top:85px;margin-bottom:30px;width:90%;float:right;padding-left:70px}
+.product-bx .sub-title{padding-bottom:35px}
+.product-details .swiper-slide img{width:70%}
+.background-product{padding-bottom:0}
+.product-info .sub-title{padding-bottom:30px}
+.features-list li svg{height:75px;width:75px}
+.features-list li{padding-bottom:20px;padding-right:1px}
+.color-title .sub-title{padding-bottom:15px}
+.cargo-details{padding-top:100px}
+.white-chalk{padding-bottom:30px}
+.certifications{gap:35px;padding-bottom:30px}
+.product .swiper-slide img{width:80%;height:100%}
+.modal-content .gallery-controls{padding-top:3%!important}
+.benifits-section{padding-top:50px;padding-bottom:50px}
+.product-details{padding-bottom:40px}
+.product-details .gallery-controls{padding-top:75px;gap:10px}
+.tab-content{padding-top:30px}
+.sub-category .sub-title{font-size:28px}
+.cargo-details .sub-title{padding-bottom:38px}
+.info-product{padding-bottom:3px}
+.info-pallet{padding-bottom:15px}
+.pack-info .sub-title{padding-bottom:30px}
+.pack-info .paragraph{font-size:19px}
+.modal-content .swiper-slide{padding-bottom:0}
+.modal-content .swiper-slide img{width:100%;height:430px}
+.modal-content{top:11%}
+.news-section{margin-top:110px;margin-bottom:100px}
+.news-section-details{margin-top:110px;margin-bottom:80px}
+.news-section-details .padding-item-card{padding-bottom:65px}
+.main-news{height:550px}
+.news-section-details .main-news{height:500px}
+.main-news .arrow svg{width:40px}
+.news-card{height:264px}
+.news-section-details .news-card{height:auto}
+.news-card .arrow svg{width:40px}
+.news-card .content{padding:30px 19px}
+.page-news-title{padding-bottom:50px}
+.news-section-details .content-news{padding-top:20px}
+.news-section-details .content-news .head-content{padding-bottom:15px}
+.news-section-details .sub-title{font-size:23px}
+.head-content .sub-title{font-size:23px}
+.img-top img{height:210px}
+.way-info .sub-title{font-size:23px}
+.theme-news img{width:95px}
+.gallery{margin-top:110px}
+.gallery .main-title{padding-bottom:50px}
+.gallery .swiper-slide img{width:98%;height:360px}
+.gallery .gallery-controls{padding-top:62px;padding-bottom:100px}
+.gallery-controls{gap:10px}
+.swiper-content .sub-title{padding-top:31px;font-size:26px}
+.swiper-style .swiper-pagination-bullet{margin-right:15px!important}
+.swiper-style .swiper-pagination-bullet-active{width:16px}
+.swiper-style.swiper-pagination-bullet{width:19px;height:19px}
+.next img{width:20px}
+.commercial-info-column h3{font-size:28px;padding-bottom:30px}
+.commercial-info-column p{font-size:16px}
+.work-info-column h3{margin-bottom:40px}
+.inner-commercial .private-label-form{padding-top:104px}
+.inner-commercial .form-private-label{padding-top:104px}
+.image-sun-top img{width:150px}
+.image-wave-bottom{bottom:-10px}
+.image-clouds-top{width:160px}
+.sustainability-img img{width:80%}
+.sust-img-ds{display:flex;justify-content:end}
+.upper-green .green-decorative{left:115px}
+.upper-yellow .yellow-decorative{right:45px;bottom:-52px}
+.lower-decorate .green-decorative{right:110px;bottom:-53px}
+.box-mg{top:-6px}
+.weight-mg{top:-11px}
+.deminsion-mg{top:-5px}
+.modal-contact .gallery-controls{padding-top:5%!important}
+.carton-mg{top:-5px}
+.container-mg{top:15px}
+.page-jordan-title{padding-bottom:50px}
+.jordan{padding-top:110px;padding-bottom:50px}
+.jordan-row .sub-title{font-size:28px}
+.jordan-mg img{height:520px}
+}
+@media screen and (max-width:1024px) and (min-width:1000px){
+main{padding-top:86px}
+.sustainability-section{margin-top:60px}
+.sustainability-section{margin-top:0}
+.sustainability-img img{width:85%;border-radius:47px}
+.upper-green .green-decorative{left:49px;top:-22px}
+.upper-yellow .yellow-decorative{bottom:-53px;right:27px}
+.lower-decorate .yellow-decorative{top:-25px;left:-8px}
+.lower-decorate .green-decorative{right:45px;bottom:-45px;width:200px}
+.img-section{padding-top:16px}
+.sustainability-inner-1{padding-bottom:0;padding-top:30px}
+.sustainability-inner-2{padding-bottom:40px;padding-top:75px}
+.polcy-part{padding-top:51px}
+.polcy-part .paragraph{padding-bottom:49px}
+.policy-list{padding-bottom:39px;padding-top:23px}
+.ethical-part{padding-top:53px}
+.car-line{right:0;top:10%}
+.car-line img{width:227px}
+.cloud-line{right:0;bottom:35%}
+.sub-category .sub-title{font-size:26px;padding-top:10px}
+.cloud-line img{width:340px}
+.cloud-blue{right:261px;bottom:41%}
+.cloud-blue img{width:100px}
+.empowering-text .sub-title{padding-bottom:21px;padding-bottom:20px;padding-top:0}
+.empowering-text{padding-bottom:60px}
+.content-box{padding-top:0;padding-left:20px}
+.content-box .sub-title{padding-top:0;padding-bottom:30px}
+.content-box .paragraph{padding-bottom:51px}
+.certificate-wrapper img{width:300px}
+.deco-certifi img{width:442px;height:470px}
+.icon-pdf-sus .sustainability-pdf a img{width:75%}
+.deco-certifi{left:-69px;top:-35px}
+.left-blue{left:0;top:16px}
+.left-blue img{width:25px}
+.right-green{bottom:13px}
+.right-green img{width:40px}
+.commitment-section{padding-top:0;padding-bottom:100px;margin-top:-90px}
+.sustainability-title .main-title{padding-bottom:0}
+.comm-abs{border-radius:0 55px 55px 0}
+.width-se{width:87%}
+.sust-header .page-header{padding-bottom:140px;top:-26px}
+.sust-header .page-header{padding-bottom:140px}
+.sust-header .page-theme{bottom:68px}
+.section-title-contact{margin-bottom:40px}
+.section-contact{margin-top:80px}
+.contact-info-column h3{font-size:25px}
+.contact-background .inner{padding-top:90px;padding-bottom:67px}
+.contact-info-column a,.contact-info-column p{font-size:17px}
+.cloud-image-wrapper img{bottom:191px;width:120px}
+.mk-chalk-w-2{width:98%}
+.product .swiper-slide img{width:85%}
+.product .gallery-controls{justify-content:center}
+.route-top .sub-title{padding-bottom:100px;padding-top:50px;font-size:18px}
+.product-bx{margin-bottom:40px;padding-bottom:31px;padding-left:38px;padding-right:18px;float:right}
+.product-bx .sub-title{padding-bottom:20px;font-size:19px}
+.features-list li svg{padding-bottom:5px;height:90px;width:65px;height:65px}
+.features-list li span{font-size:14px}
+.features-list{margin-bottom:0}
+.features-list li{padding-bottom:15px}
+.white-chalk{padding-bottom:20px;padding-top:8px}
+.certifications{padding-bottom:20px}
+.benifits-section{padding-top:25px;padding-bottom:35px}
+.product-details .swiper-slide img{width:75%;height:100%}
+.product-details{padding-bottom:30px}
+.product-details .gallery-controls{padding-top:60px}
+.product-details .col-lg-2{width:20.66667%}
+.cargo-details .sub-title{font-size:20px;padding-bottom:20px}
+.cargo-details .paragraph{font-size:15px}
+.modal-content{top:11%}
+.pack-info .sub-title{font-size:21px;padding-bottom:15px}
+.pack-info .paragraph{font-size:16px}
+.info-product{padding-bottom:3px}
+.info-pallet{padding-bottom:3px}
+.modal-content .swiper-slide{padding-bottom:0!important}
+.modal-content .swiper-slide img{width:100%;height:370px}
+.modal-content .gallery-controls{padding-top:5%!important}
+.news-card .arrow svg{width:35px}
+.news-card .content{padding:30px 14px}
+.main-news .arrow svg{width:35px}
+.news-section{margin-top:80px;margin-bottom:100px}
+.news-section-details{margin-top:80px}
+.page-news-title{padding-bottom:30px}
+.img-top img{height:210px}
+.news-section-details .main-news{height:460px}
+.theme-news img{width:73px;height:979px}
+.news-section-details .padding-item-card{padding-bottom:33px}
+.news-section-details .sub-title{font-size:22px}
+.way-info .sub-title{font-size:22px;font-weight:500;margin-top:15px;line-height:1;margin-left:15px}
+.gallery{margin-top:80px}
+.gallery .main-title{padding-bottom:30px}
+.gallery .swiper-slide img{width:454px;height:300px}
+.gallery .gallery-controls{padding-bottom:50px;padding-top:58px}
+.swiper-content .sub-title{font-size:23px;padding-top:21px}
+.next img{width:17px}
+.head-content .sub-title{font-size:20px}
+.news-section .paragraph{font-size:15px}
+.gallery-controls{gap:10px}
+.swiper-style .swiper-pagination-bullet{width:15px;height:15px}
+.inner-commercial .private-label-form{padding-top:97px}
+.inner-commercial .form-private-label{padding-top:97px}
+.inner-commercial{padding-bottom:60px}
+.commercial-info-column h3{font-size:28px;padding-bottom:40px;padding-bottom:27px}
+.commercial-info-column p{font-size:17px}
+.contact-background .inner{padding-top:90px;padding-bottom:67px}
+.download-control{width:100%}
+.download-p{padding-bottom:30px}
+.image-sun-top img{width:129px;top:50px;right:50px}
+.image-clouds-top{width:160px}
+.image-wave-bottom{bottom:-10px}
+.tab-button{font-size:23px;padding:8px 0}
+.box-mg{width:32px!important;position:relative;top:-19px}
+.weight-mg{width:19px!important;top:-17px}
+.deminsion-mg{width:23px!important;top:-7px}
+.carton-mg{width:27px!important;top:-8px}
+.container-mg{width:25px!important;top:1px}
+.certifications{gap:20px}
+.certifications img{width:30px;height:30px}
+.colors img{width:180px;height:auto}
+.white-chalk{font-size:13px;gap:10px}
+.ce{width:30px!important;height:30px!important}
+.page-jordan-title{padding-bottom:30px}
+.jordan{padding-top:80px}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row .sub-title{padding-top:50px;font-size:26px}
+.jordan-row .paragraph{font-size:18px}
+.jordan-mg img{height:450px}
+.jo-journey{padding-bottom:40px;font-size:16px}
+.world-map{padding-bottom:100px}
+}
+@media screen and (max-width:900px){
+.product-mg img{height:240px;width:auto}
+.product-mg{padding-top:50px;padding-bottom:20px}
+.main-category-title{padding-bottom:50px}
+.white-chalk{padding-bottom:20px}
+main{padding-top:90px}
+.page-header{padding-bottom:50px}
+.quality-head{margin-top:-20px}
+.quality-head .main-title{padding-bottom:35px}
+.quality-head .paragraph{padding-bottom:30px}
+.certificate-cn img{max-height:290px}
+.certificates-cn .main-title{padding-bottom:40px}
+.certificates-cn{padding-bottom:70px}
+.ce-cn img{height:85px}
+.history-timeline-cn:before{left:8px;width:2px}
+.timeline-block{width:100%;margin-bottom:30px}
+.timeline-block-right{float:none}
+.timeline-block-left{float:none;direction:ltr}
+.timeline-block-left .paragraph{text-align:left}
+.page-theme{bottom:20px}
+.history-cn .main-title{padding-top:55px;padding-bottom:45px}
+.timeline-content{width:95%}
+.history-cn{padding-bottom:115px}
+.making-chalks-cn .main-title{padding-top:65px;padding-bottom:15px}
+.making-chalks-cn .sub-title{padding-bottom:25px}
+.parent{grid-template-columns:20% 20% 59%;height:460px;margin-bottom:85px;grid-column-gap:5px;grid-row-gap:5px;overflow:hidden}
+.grid-theme-top{right:-8px}
+.grid-theme-bottom{left:-8px;bottom:60px}
+.text-with-num-cn{padding-bottom:40px}
+.grid-theme-top svg{width:50%;height:auto}
+.grid-theme-bottom svg{width:50%;height:auto}
+.making-chalk-theme-left svg,.making-chalk-theme-right svg{width:40%;height:auto}
+.making-chalks-cn{padding-bottom:65px}
+.upper-green .green-decorative{width:75px;left:-6px;top:-17px}
+.upper-yellow .yellow-decorative{width:145px;bottom:-41px;right:27px}
+.lower-decorate .yellow-decorative{width:75px;top:-14px;left:-6px}
+.lower-decorate .green-decorative{right:-11px;width:145px;bottom:-28px}
+.sustainability-section{margin-top:11px}
+.sustainability-inner-1{padding-bottom:0;padding-top:40px}
+.empowering-text{padding-bottom:20px;font-weight:400}
+.empowering-text .sub-title{padding-bottom:20px}
+.cloud-blue{right:214px;bottom:23%}
+.cloud-blue img{width:72px}
+.car-line{right:0;top:-25px}
+.car-line img{width:160px}
+.policy-list{padding-bottom:36px;padding-top:12px}
+.cloud-line{right:0;bottom:15%}
+.cloud-line img{width:275px;padding-bottom:30px}
+.sustainability-inner-2{padding-bottom:0;padding-top:80px}
+.polcy-part{padding-top:42px}
+.ethical-part{padding-top:70px}
+.certificate-wrapper img{width:240px;display:flex;justify-content:center}
+.sust-logo img{width:80px!important;right:0;top:-12px}
+.deco-certifi{position:absolute;z-index:-1;top:-25px;left:-35px}
+.deco-certifi img{width:341px;height:372px}
+.comm-abs{width:100%;border-radius:0 55px 55px 0}
+.content-box .sub-title{padding-bottom:5px;padding-top:0}
+.content-box .paragraph{padding-bottom:20px}
+.content-box{padding-top:0}
+.icon-pdf-sus .sustainability-pdf{bottom:-18px;left:-17px}
+.icon-pdf-sus .sustainability-pdf a img{width:70px}
+.policy-download img{width:30px}
+.policy-list li a{font-size:15px}
+.polcy-part p{padding-bottom:20px}
+.policy-list li{padding-bottom:15px}
+.commitment-section{padding-top:0;padding-bottom:90px}
+.commitment-section .paragraph{font-size:15px}
+.sustainability-title .main-title{padding-bottom:0}
+.right-green{bottom:13px}
+.right-green img{width:30px}
+.left-blue{left:0;top:16px}
+.left-blue img{width:13px}
+.sustainability-img{width:100%;height:350px}
+.sustainability-img img{width:100%}
+.polcy-section{padding-top:50px}
+.policy-list .policy-download{font-size:16px}
+.width-se{width:90%}
+.ethical-part .sub-title{padding-bottom:20px;margin-bottom:0}
+.section-contact{margin-top:70px}
+.section-title-contact{margin-bottom:40px}
+.contact-background .inner{padding-top:54px;padding-bottom:51px}
+.contact-info-column h3{font-size:25px}
+.contact-info-column a,.contact-info-column p{font-size:17px}
+.section-contact iframe{margin-bottom:40px;height:400px}
+.cloud-image-wrapper img{bottom:136px;width:90px}
+.news-card{flex-direction:column;height:auto}
+.main-news .content .paragraph{left:62px}
+.main-news .content .head-content{left:62px}
+.news-card .content,.news-card img{width:100%;order:0!important}
+.main-news{height:420px}
+.main-news-padding{padding-bottom:25px}
+.img-right img{height:170px}
+.news-section{margin-top:70px;margin-bottom:70px}
+.news-section-details{margin-top:70px;margin-bottom:70px}
+.page-news-title{padding-bottom:30px}
+.img-left img{height:170px}
+.section-title-contact .main-title{font-size:34px}
+.news-card .arrow svg{width:40px}
+.main-news .arrow svg{width:40px}
+.head-content .sub-title{font-size:20px}
+.padding-item-card{padding-bottom:15px}
+.news-section-details .main-news{height:420px}
+.img-top img{height:200px}
+.news-section-details .padding-item-card{padding-bottom:55px}
+.theme-news{display:none}
+.content-news .paragraph{padding-bottom:20px}
+.gallery{margin-top:70px}
+.gallery .gallery-controls{padding-bottom:45px;padding-top:48px;justify-content:center}
+.gallery .main-title{padding-bottom:30px}
+.gallery .swiper-slide img{width:98%;height:280px}
+.next img{width:17px}
+.swiper-content .sub-title{font-size:20px;padding-top:19px}
+.swiper-style .swiper-pagination-bullet{width:13px;height:13px;margin-right:12px!important}
+.gallery-controls{gap:10px}
+.product .gallery-controls{padding-top:23px;padding-bottom:25px}
+.box-product{padding-right:calc(var(--bs-gutter-x) * .5);padding-left:calc(var(--bs-gutter-x) * .5)}
+.product-bx{border-radius:20px;padding-bottom:35px;margin-bottom:41px;padding-left:40px;padding-right:15px;width:100%}
+.features-list li svg{padding-bottom:7px;height:75px}
+.route-top .sub-title{padding-bottom:70px;padding-top:50px;font-size:17px}
+.product .swiper-slide img{width:60%!important}
+.certifications{padding-bottom:20px}
+.product-bx .sub-title{font-size:18px;padding-bottom:20px}
+.features-list li{padding-bottom:15px;font-size:15px}
+.tab-button{padding:0;font-size:20px}
+.tab-header{gap:50px}
+.tab-pane tr td p{width:95%}
+.sub-category .sub-title{font-size:25px;padding-top:10px}
+.cargo-details .sub-title{font-size:20px}
+.pack-info .sub-title{font-size:19px}
+.pack-info .paragraph{font-size:15px}
+.product-details .swiper-slide img{width:85%;height:auto;object-fit:contain;object-position:center}
+.modal .swiper-slide img{width:70%!important}
+.btns-product{padding-top:40px}
+.tab-content{padding-top:25px}
+.info-product{padding-bottom:5px}
+.info-pallet{padding-bottom:0;margin-top:-21px}
+.product-details{padding-top:40px;padding-bottom:25px}
+.pack-info .sub-title{padding-bottom:15px}
+.modal-content .gallery-controls{padding-top:30px!important}
+.modal-content{width:85%}
+.modal-content .gallery-controls{padding-top:10px}
+.way-info .sub-title{font-size:20px;font-weight:500;margin-top:10pxpx;line-height:1;margin-left:15px}
+.slide-diecut .sub-title{font-size:18px;padding-top:20px}
+.product-details .gallery-controls{gap:10px;padding-top:55px}
+.product .swiper-slide{justify-content:center}
+.product .gallery-controls{justify-content:center;width:100%}
+.cargo-details .paragraph span img{width:25px;height:25px;top:10px}
+.cargo-details{padding-top:70px}
+.pack-info{margin-top:-30px}
+.cargo-details .paragraph{font-size:13px}
+.info-product .paragraph{padding-bottom:5px}
+.benifits-section{padding-top:13px}
+.commercial-info-column h3{padding-bottom:24px;font-size:25px}
+.commercial-info-column p{font-size:16px}
+.product-bx .paragraph{padding-bottom:10px}
+.inner-commercial{padding-bottom:0}
+.image-wave-bottom{bottom:-5px}
+.download-control span{font-size:15px}
+.icon-download{width:23px}
+.image-sun-top img{width:100px;top:30px}
+.image-clouds-top{width:115px}
+.padding-60{padding-top:40px}
+.download-p{padding-bottom:20px}
+.btn-download{width:20%}
+.inner-commercial .private-label-form{padding-top:70px}
+.emoji-image{padding-top:14px;padding-bottom:23px}
+.product-details .gallery-controls{justify-content:center}
+.box-mg{width:27px!important;top:-35px}
+.weight-mg{width:15px!important;top:-25px}
+.deminsion-mg{width:21px!important;top:-8px}
+.carton-mg{width:25px!important;top:-8px}
+.container-mg{width:23px!important;top:-6px}
+.page-jordan-title{padding-bottom:30px}
+.jo-mg{padding-left:0;padding-right:0;margin-top:10px}
+.jordan{padding-bottom:0;padding-top:70px}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row .sub-title{padding-top:50px;font-size:24px}
+.jordan-row .paragraph{font-size:17px}
+.jordan-mg img{height:380px}
+.jo-journey{padding-bottom:40px;font-size:16px}
+.world-map{padding-bottom:80px}
+#map{height:52vh!important}
+}
+@media screen and (max-width:650px){
+.cat-mg-cn img{width:60%}
+main{padding-top:80px}
+.main-category-page-cn{padding-bottom:50px}
+.product-info{width:95%}
+.product-title{font-size:19px}
+.page-header{padding-bottom:25px}
+.certificate-cn img{object-position:center;max-height:255px}
+.certificate-cn{padding-bottom:30px}
+.ce-cn img{height:63px}
+.page-header>img{width:100%;height:250px;object-fit:cover;object-position:center top}
+.timeline-content{width:90%}
+.timeline-content h3{margin-bottom:5px;font-size:22px}
+.timeline-block{margin-bottom:15px}
+.timeline-block:last-child{margin-bottom:0}
+.history-cn{padding-bottom:75px}
+.parent{display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(3,1fr);height:800px;margin-bottom:35px}
+.div1{grid-area:1/1/2/3}
+.div2{grid-area:2/1/3/2}
+.div3{grid-area:2/2/3/3}
+.div4{grid-area:3/1/4/3}
+.making-chalk-theme-left{bottom:2%}
+.grid-theme-bottom{bottom:10px}
+.grid-theme-top{top:-30px}
+.pack-info .sub-title{font-size:18px}
+.sustainability-section{margin-top:0}
+.sustainability-inner-1{padding-top:0;padding-bottom:0}
+.sustainability-inner-2{padding-bottom:40px;padding-top:44px}
+.empowering-text .sub-title{padding-bottom:20px}
+.empowering-text{padding-bottom:20px}
+.policy-list .policy-download{font-size:16px}
+.deco-certifi{display:none}
+.policy-list li a{font-size:16px}
+.upper-yellow .yellow-decorative{width:137px!important;bottom:-43px!important;right:38px!important}
+.sustainability-img{padding-top:0}
+.ethical-part .sub-title{padding-bottom:23px}
+.ethical-part{padding-top:45px}
+.polcy-part{padding-top:63px}
+.policy-list{padding-bottom:87px;padding-top:13px}
+.polcy-part .paragraph{padding-bottom:30px}
+.car-line img{width:150px}
+.car-line{top:26%;right:0}
+.cloud-line{bottom:12%;right:0}
+.cloud-line img{width:230px}
+.cloud-blue{right:164px;bottom:16%}
+.cloud-blue img{width:60px}
+.certificate-wrapper img{width:250px}
+.comm-abs{height:66%;width:94%;left:12px;top:40%;border-radius:20px}
+.commitment-section{padding-top:0;padding-bottom:124px}
+.policy-download img{width:28px}
+.column-certficate{display:flex;justify-content:center}
+.deco-certifi img{width:280px}
+.deco-certifi{left:30px;bottom:20px}
+.content-box .sub-title{padding-bottom:10px;padding-top:0}
+.upper-green .green-decorative{position:absolute;width:66px;top:-15px;left:-4px;z-index:-1}
+.certificate-wrapper{padding:51px;background-color:none;background-image:url(/srcNew/images/deco-certfi.png);background-repeat:no-repeat;background-size:contain;background-position:center}
+.sust-logo img{width:75px!important;right:51px;top:42px}
+.lower-decorate .green-decorative{position:absolute;width:137px;bottom:-32px;right:-5px}
+.lower-decorate .yellow-decorative{position:absolute;width:66px;left:-4px;top:-17px;z-index:-1}
+.icon-pdf-sus .sustainability-pdf{bottom:38px;left:45px}
+.ethical-part .paragraph{margin-bottom:0;padding-bottom:30px}
+.icon-pdf-sus .sustainability-pdf a img{width:60px}
+.content-box{padding:0 25px}
+.carton-pallet{padding-bottom:20px}
+.sustainability-img img{object-fit:cover;width:100%;border-radius:29px;overflow:hidden}
+.sustainability-img{width:500px;height:300px;padding-top:8px}
+.right-green img{width:23px}
+.empowering-text{padding-top:20px}
+.polcy-section{padding-top:0}
+.policy-list li{padding-bottom:15px}
+.width-se{width:100%}
+.cloud-line img{padding-bottom:15px}
+.cloud-blue img{padding-bottom:10px}
+.content-box .paragraph{padding-bottom:21px}
+.sust-header .page-theme{bottom:-2px}
+.sust-header .page-header>img{object-position:left}
+.main-news{height:435px}
+.head-content .sub-title{font-size:20px}
+.news-section .col-sm-6{width:100%}
+.main-news-padding{padding-bottom:20px}
+.main-news .content .paragraph{left:51px}
+.main-news .content .head-content{left:51px;right:10px}
+.news-section{margin-top:50px;margin-bottom:50px}
+.news-section-details{margin-top:50px;margin-bottom:50px}
+.page-news-title{padding-bottom:20px}
+.news-card .arrow svg{width:40px}
+.padding-item-card{padding-bottom:15px}
+.content-news .paragraph{padding-bottom:10px}
+.news-section-details .main-news{height:435px}
+.img-left-border{border-radius:15px}
+.img-right-border{border-radius:15px}
+.gallery{margin-top:50px}
+.gallery .swiper-slide img{width:100%}
+.gallery .main-title{padding-bottom:20px}
+.swiper-style .swiper-pagination-bullet{width:10px;height:10px;margin-right:8px!important}
+.swiper-content .sub-title{padding-top:16px}
+.gallery-controls{gap:10px}
+.swiper-style .swiper-button-next img{width:15px}
+.gallery .gallery-controls{padding-top:28px}
+.next img{width:13px}
+.way-info .sub-title{margin-top:12px;font-size:19px;margin-left:10px}
+.section-title-contact{margin-bottom:20px}
+.section-contact{margin-top:50px}
+.company-contact-info h3{margin-bottom:15px}
+.contact-info-column h3{font-size:22px}
+.contact-info-column a,.contact-info-column p{font-size:16px}
+.cloud-image-wrapper img{bottom:50px;width:60px}
+.route-top .sub-title{padding-top:40px;font-size:15px;padding-bottom:45px}
+.product .swiper-slide img{width:90%!important;height:auto!important;object-fit:contain}
+.product .gallery-controls{padding-top:23px;padding-bottom:25px;gap:5px}
+.pack-info .paragraph{margin-bottom:0}
+.theme-product img{height:40px}
+.tab-button{font-size:17px}
+.tab-header{align-items:center;gap:30px}
+.tab-pane tr td{width:100%;display:block}
+.tab-pane tr td p{width:100%}
+.tab-pane tr td:nth-child(2){padding-top:40px}
+.sub-category .sub-title{font-size:23px}
+.benifit-title .tab-button.active::after{bottom:-12px}
+.benifits-section{padding-top:14px;padding-bottom:19px}
+.product-bx{padding-left:25px;padding-right:10px;margin-bottom:20px;padding-bottom:25px;padding-top:50px}
+.cargo-details .sub-title{font-size:19px;padding-bottom:20px}
+.info-product{padding-bottom:20px;padding-left:0}
+.info-pallet{padding-left:0;padding-top:0;margin-top:-35px}
+.cargo-details li{padding-left:0}
+.modal-content{width:95%;padding-top:50px}
+.slide-diecut .sub-title{font-size:19px}
+.product-details .gallery-controls{gap:5px;padding-top:40px}
+.product-details{padding-top:30px;padding-bottom:20px}
+.colors img{width:163px;height:auto}
+.product-img{order:0}
+.pack-info{order:1;padding-top:25px;margin-top:0;padding-bottom:10px}
+.cargo-details{order:2;padding-top:15px}
+.cargo-details .paragraph{font-size:14px}
+.container-mg{top:-2px}
+.box-mg{top:-32px}
+.cargo-details .paragraph span img{width:25px;height:25px;object-fit:contain;padding-right:2px}
+.section-title-contact .main-title{font-size:30px}
+.commercial-info-column h3{font-size:22px}
+.inner-commercial .private-label-form{padding-top:37px;padding-bottom:30px}
+.padding-60{padding-top:40px}
+.inner-commercial{padding-bottom:0}
+.inner-commercial .form-private-label{padding-top:37px;padding-bottom:30px}
+.commercial-info-column p{font-size:16px}
+.emoji-image{padding-top:0;text-align:center;padding-bottom:10px}
+.download-p{padding-bottom:20px}
+.commercial-info-column h3{padding-bottom:10px}
+.image-sun-top img{width:85px;top:12px;right:20px}
+.btn-download{width:20%}
+.download-control{width:100%}
+.image-clouds-top{width:100px;padding-bottom:10px}
+.page-jordan-title{padding-bottom:20px}
+.jordan{padding-bottom:20px;padding-top:50px}
+.dead-sea svg{width:150px;bottom:-40px;left:-40px}
+.rum svg{width:70px;top:-30px;right:-10px}
+.jordan-row{padding-bottom:0}
+.jordan-row .sub-title{padding-top:30px;font-size:23px;padding-bottom:10px}
+.jordan-row .paragraph{font-size:16px}
+.jordan-mg img{height:320px}
+.jo-journey{padding-bottom:30px;font-size:15px}
+.world-map{padding-bottom:60px}
+.jo-info{padding-bottom:40px}
+.sea-padding{padding-left:0;padding-right:0}
+.rum-padding{padding-left:0;padding-right:0}
+.petra-padding{padding-left:0;padding-right:0}
+.leaflet-popup-content-wrapper{font-size:14px;max-width:90vw}
+.leaflet-popup-content a{font-size:14px}
+.back-btn{font-size:18px;padding:5px 14px}
+.country-label{font-size:12px}
+}
+@media screen and (max-width:320px){
+.car-line{top:27%}
+.cargo-details .paragraph{font-size:14px}
+.btns-product .main-btn a{font-size:13px}
+.product-bx .main-btn a{font-size:16px}
+.product-details .col-6{width:100%}
+.news-section-details .main-news{height:325px}
+.benifit-title .tab-button.active::after{bottom:-21px}
+.sust-logo img{width:65px!important}
+.info-pallet{margin-top:-30px}
+.info-pallet{top:0}
+.box-mg{top:-32px}
+}
+@media screen and (min-width:576px) and (max-width:650px){
+.col-sm-6{flex:0 0 auto;width:100%}
+}
+@media screen and (min-width:650px) and (max-width:767px){
+.product-img{order:0}
+.pack-info{order:1;margin-top:0;padding-top:20px}
+.cargo-details{order:2;padding-top:10px}
+.info-pallet{margin-top:0}
+.product-details .swiper-slide img{width:75%}
+}
+@media screen and (max-width:1400px) and (min-width:1025px){
+.sustainability-img img{width:80%;border-radius:50px}
+.empowering-text .sub-title{padding-bottom:20px}
+.sustainability-inner-1{padding-bottom:80px;padding-top:5px;margin-top:-10px}
+.sust-img-ds{display:flex;justify-content:end}
+.upper-green .green-decorative{left:90px;top:-22px}
+.upper-green .yellow-decorative{left:101px;top:-22px}
+.lower-decorate .green-decorative{right:89px;width:195px;bottom:-47px}
+.lower-decorate .yellow-decorative{top:-18px;left:-17px}
+.sustainability-inner-2{padding-bottom:60px}
+.sustainability-content{background-size:contain}
+.certificate-wrapper img{width:310px}
+.deco-certifi img{width:460px;height:483px}
+.icon-pdf-sus .sustainability-pdf a img{width:70%}
+.policy-list .policy-download{font-size:15px}
+.cloud-line{bottom:33%}
+.cloud-line img{width:345px}
+.cloud-blue{right:275px;bottom:440px}
+.policy-list{padding-bottom:36px}
+.sust-logo img{width:103px!important}
+.commitment-section{padding-top:0;padding-bottom:90px}
+.sustainability-title .main-title{padding-bottom:20px;font-size:34px}
+.polcy-part .paragraph{padding-bottom:50px}
+.cloud-image-wrapper img{width:120px;bottom:210px}
+.contact-info-column a,.contact-info-column p{font-size:17px}
+.main-news{height:467px}
+.news-card{height:222px}
+.news-card .content{padding:22px 19px}
+.head-content .sub-title{font-size:21px}
+.content .paragraph{font-size:15px}
+.img-top img{height:184px}
+.news-section-details .main-news{height:440px}
+.news-section-details .padding-item-card{padding-bottom:65px}
+.content-news .paragraph{font-size:15px}
+.swiper-style .swiper-pagination-bullet{height:14px;width:14px}
+.next img{width:17px}
+.gallery .gallery-controls{padding-top:51px;padding-bottom:90px}
+.gallery .swiper-slide img{height:300px}
+.swiper-content .sub-title{font-size:24px}
+.gallery .main-title{font-size:35px}
+.news-section-details{margin-top:100px}
+.gallery{margin-top:100px}
+.section-contact{margin-top:100px}
+.contact-info-column h3{margin-bottom:25px}
+.tab-button{font-size:22px;padding:7px 0}
+.tab-header{gap:75px}
+.benifits-section{padding-top:40px}
+.certificate-cn img{max-height:430px}
+.ce-cn img{height:110px}
+.mk-chalk-w-2{width:97%}
+.grid-theme-top{right:-7px}
+.product-bx{margin-top:0;padding-top:80px;padding-left:60px;padding-right:30px;width:90%;float:right}
+.product .swiper-slide img{width:85%}
+.white-chalk{font-size:13px}
+.colors img{width:200px;height:auto}
+.features-list li svg{width:70px;height:70px}
+.features-list li{font-size:14px}
+.route-top .sub-title{font-size:18px}
+.certifications{gap:20px}
+.certifications img{width:30px;height:30px}
+.ce{width:35px!important;height:30px!important}
+.btns-product{padding-top:60px}
+.modal-contact .gallery-controls{padding-bottom:0}
+.cargo-details .paragraph{font-size:16px}
+.pack-info .paragraph{font-size:17px}
+.pack-info .sub-title{font-size:20px}
+.modal-content .swiper-slide img{width:100%;height:400px}
+.modal-content{padding-top:0;top:9%}
+.modal-content .gallery-controls{padding-top:2%!important}
+.slide-diecut .sub-title{padding-top:15px}
+.box-mg{width:32px!important;position:relative;top:-16px}
+.weight-mg{width:19px!important;top:-16px}
+.deminsion-mg{width:23px!important;position:relative;top:-7px}
+.carton-mg{width:27px!important;top:-6px}
+.container-mg{width:25px!important;top:5px}
+.jo-mg{margin-top:0}
+.way-info .sub-title{font-size:23px}
+.world-map{padding-bottom:100px}
+.jordan-mg img{height:415px}
+.jordan-row .sub-title{font-size:25px}
+.jordan-row .paragraph{font-size:18px}
+}
